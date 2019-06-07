@@ -1,0 +1,416 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BIALTY - Bulk Image Alt Text (Alt tag, Alt Attribute) "
+"with Yoast SEO + WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-04 12:45+0000\n"
+"PO-Revision-Date: 2018-10-04 19:40-0400\n"
+"Last-Translator: admin <key7i@yahoo.com>\n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+
+#: bulk-image-alt-text-with-yoast-admin.php:90
+msgid "Settings saved."
+msgstr "Paramètres sauvegardés"
+
+#: bulk-image-alt-text-with-yoast-admin.php:95
+#, php-format
+msgid "<a href=\"%s\">Get Pro version</a> to enable"
+msgstr "<a href=\"%s\">Obtenir la version PROP</a> pour activer"
+
+#: bulk-image-alt-text-with-yoast-admin.php:102
+msgid "Settings"
+msgstr "Paramètres"
+
+#: bulk-image-alt-text-with-yoast-admin.php:123
+msgid ""
+"Yoast SEO is either not installed or disabled. \"Focus Keyword\" won't work "
+"(of course). \"Both...\" feature will add only Post titles to Alt tags"
+msgstr ""
+"Le plugin YOAST SEO est soit absent soit désactivé. La fonctionnalité "
+"utilisant le widget \"Focus Keyword\" de Yoast ne pourra donc pas "
+"s'exécuter. La configuration par défaut utilisera donc uniquement les titres "
+"de page comme Alt Text."
+
+#: bulk-image-alt-text-with-yoast-admin.php:127
+msgid "BIALTY, how does it work?"
+msgstr "Bialty, comment ça marche ?"
+
+#: bulk-image-alt-text-with-yoast-admin.php:128
+msgid "1. Select what to do with missing alt tags"
+msgstr "1. Identifiez quoi faire avec les Alt texts manquantes"
+
+#: bulk-image-alt-text-with-yoast-admin.php:129
+msgid "2. Select what to do with existing alt tags"
+msgstr "2. Identifiez quoi faire avec les Alt texts existantes"
+
+#: bulk-image-alt-text-with-yoast-admin.php:130
+msgid ""
+"3. Click on \"save changes\" and your settings will be applied everywhere."
+msgstr "3. Cliquez sur \"Sauvegarder\" et vos paramètres seront appliqués."
+
+#: bulk-image-alt-text-with-yoast-admin.php:134
+msgid "About pages and Post Alt texts"
+msgstr "A propos des Alt texts de pages & articles"
+
+#: bulk-image-alt-text-with-yoast-admin.php:139
+#: bulk-image-alt-text-with-yoast-admin.php:193
+#: bulk-image-alt-text-with-yoast-admin.php:245
+msgid "Replace Missing Alt Tags with"
+msgstr "Remplacer les Alt texts manquants par"
+
+#: bulk-image-alt-text-with-yoast-admin.php:145
+#: bulk-image-alt-text-with-yoast-admin.php:170
+#: bulk-image-alt-text-with-yoast-admin.php:199
+#: bulk-image-alt-text-with-yoast-admin.php:224
+#: bulk-image-alt-text-with-yoast-admin.php:251
+#: bulk-image-alt-text-with-yoast-admin.php:275
+msgid "Yoast Focus Keyword"
+msgstr "Focus Keyword de YOAST"
+
+#: bulk-image-alt-text-with-yoast-admin.php:148
+#: bulk-image-alt-text-with-yoast-admin.php:173
+#: bulk-image-alt-text-with-yoast-admin.php:202
+#: bulk-image-alt-text-with-yoast-admin.php:227
+#: bulk-image-alt-text-with-yoast-admin.php:254
+#: bulk-image-alt-text-with-yoast-admin.php:278
+msgid "Post Title"
+msgstr "Titre de page"
+
+#: bulk-image-alt-text-with-yoast-admin.php:151
+#: bulk-image-alt-text-with-yoast-admin.php:176
+#: bulk-image-alt-text-with-yoast-admin.php:205
+#: bulk-image-alt-text-with-yoast-admin.php:230
+#: bulk-image-alt-text-with-yoast-admin.php:257
+#: bulk-image-alt-text-with-yoast-admin.php:281
+msgid "Both Focus Keyword & Post Title"
+msgstr "Focus keyword + titre"
+
+#: bulk-image-alt-text-with-yoast-admin.php:154
+#: bulk-image-alt-text-with-yoast-admin.php:179
+#: bulk-image-alt-text-with-yoast-admin.php:208
+#: bulk-image-alt-text-with-yoast-admin.php:233
+#: bulk-image-alt-text-with-yoast-admin.php:260
+#: bulk-image-alt-text-with-yoast-admin.php:284
+msgid "Disable"
+msgstr "Désactiver"
+
+#: bulk-image-alt-text-with-yoast-admin.php:163
+#: bulk-image-alt-text-with-yoast-admin.php:217
+#: bulk-image-alt-text-with-yoast-admin.php:269
+msgid "Replace Defined Alt Tags with"
+msgstr "Remplacer les Alt texts existants par"
+
+#: bulk-image-alt-text-with-yoast-admin.php:186
+msgid "About product Alt texts (for Woocommerce)"
+msgstr "A propos des Alt texts de produits (pour Woocommerce)"
+
+#: bulk-image-alt-text-with-yoast-admin.php:291
+msgid "Bulk Image Alt Text for Woocommerce Products"
+msgstr "Bulk Image Alt Text for Woocommerce Products"
+
+#: bulk-image-alt-text-with-yoast-admin.php:304
+msgid "Delete Settings"
+msgstr "Effacer les paramètres"
+
+#: bulk-image-alt-text-with-yoast-admin.php:315
+msgid "Checking this box will remove all settings when you deactivate plugin."
+msgstr ""
+"Cliquer ici désactivera tous les paramètres lors de la désintallation du "
+"plugin."
+
+#: bulk-image-alt-text-with-yoast-admin.php:321
+msgid "Save Changes"
+msgstr "Sauvegarder les paramètres"
+
+#: bulk-image-alt-text-with-yoast-admin.php:325
+msgid ""
+"IMPORTANT: BIALTY plugin modifies image alt texts on front-end. Any empty or "
+"existing alt text will be replaced according to settings above. About Yoast "
+"SEO, please note that it \"checks\" content in real time inside text editor "
+"in Wordpress back-end, so even if Yoast does not display a green bullet for "
+"the \"image alt attributes\" line, BIALTY is still doing the job. For your "
+"information, Google Bot and other search engine bots see only image alt "
+"attributes on Front-end (not as Yoast reading content inside text editor)"
+msgstr ""
+"IMPORTANT: Le plugin BIALTY modifie les textes alternatifs (ALT text) des "
+"images dans le Front-end. Donc, tous les textes alternatifs manquants ou "
+"inexistants seront effectivement remplacés selon les paramètres définis plus "
+"haut. À propos de Yoast SEO, prenez note qu'il vérifie le contenu en temps "
+"réel à l'intérieur de l'éditeur de texte dans le Back-end Wordpress, donc "
+"même si Yoast n'affiche pas toujours le \"point vert\" concernant la ligne "
+"\"Les attributs Alt des images...\", cela ne veut pas dire que le plugin "
+"BIALTY n'a pas effectivement rajouté/modifié les Alt texts manquants/"
+"existants. Pour votre information, le robot d'indexation de Google ainsi que "
+"tous les autres (moteurs de recherche) ne voient que les textes alternatifs "
+"du Front-end (contrairement à Yoast qui ne lit le contenu qu'a l'intérieur "
+"de l'éditeur de texte en Back-end)."
+
+#: bulk-image-alt-text-with-yoast-admin.php:329
+msgid ""
+"Note 1: BIALTY is fully compatible with most popular page builders (TinyMCE, "
+"SiteOrigin, Elementor, Gutenberg)"
+msgstr ""
+"Note 1: BIALTY est 100% compatible avec la plupart des \"page builders\" "
+"populaires (TinyMCE, SiteOrigin, Elementor, Gutenberg)"
+
+#: bulk-image-alt-text-with-yoast-admin.php:330
+msgid ""
+"Note 2: If you've installed YOAST SEO but did not optimize yet, Select "
+"\"Both Focus Keyword & Post title\""
+msgstr ""
+"Note 2: Si vous avez installé Yoast SEO avec une utilisation \"passive\", "
+"sélectionnez l'option \"Focus Keyword + le titre de page\""
+
+#: bulk-image-alt-text-with-yoast-admin.php:331
+msgid ""
+"Note 3: If you did not install YOAST SEO plugin, please keep default "
+"settings. BIALTY will add your post titles to Alt tags."
+msgstr ""
+"Note 3: Si vous n'avez pas installé YOAST SEO, utilisez simplement la "
+"configuration par défaut. BIALTY utilisera vos titres de page/post comme "
+"texte alternatif."
+
+#: bulk-image-alt-text-with-yoast-admin.php:334
+msgid ""
+"If after saving setting on BIALTY, somes images do not have alt texts, for "
+"now, it's mainly due to incompatibility between BIALTY and some other slider "
+"or gallery plugins. Please let us know and provide us with details at "
+"support@bialty.com. Future updates are already planned to correct this."
+msgstr ""
+"Si après avoir sauvegardé vos paramètres, certaines images ne comportent pas "
+"de texte alternatif, ceci est principalement du à une incompabilité entre "
+"BIALTY et certains plugins de type \"slider\" ou galerie. Merci de nous en "
+"informer et de nous fournir plus d'information sur le sujet à support@bialty."
+"com. Plusieurs mises à jour sont planifiées pour maximiser l'efficacité du "
+"plugin."
+
+#: bulk-image-alt-text-with-yoast.php:79
+#, php-format
+msgid ""
+"Hey %1$s, %2$s Click on Allow & Continue to start optimizing your images "
+"with ALT tags :)!  Don't spend hours at adding manually alt tags to your "
+"images. BIALTY will use your YOAST settings automatically to get better "
+"results on search engines and improve your SEO. %2$s Never miss an important "
+"update -- opt-in to our security and feature updates notifications. %2$s See "
+"you on the other side."
+msgstr ""
+"Hey %1$s, %2$s Click on Allow & Continue to start optimizing your images "
+"with ALT tags :)!  Don't spend hours at adding manually alt tags to your "
+"images. BIALTY will use your YOAST settings automatically to get better "
+"results on search engines and improve your SEO. %2$s Never miss an important "
+"update -- opt-in to our security and feature updates notifications. %2$s See "
+"you on the other side."
+
+#: inc/faq.php:5
+msgid "1.What is alt text?"
+msgstr "Qu'est ce qu'une Alt text?"
+
+#: inc/faq.php:9
+msgid ""
+"Alt text (alternative text), also known as \"alt attributes\", “alt "
+"descriptions,” and technically incorrectly as \"alt tags,” are used within "
+"an HTML code to describe the appearance and function of an image on a page."
+msgstr ""
+"Les Alt texts (texte alternatif), également appelées \"attributs alt\", et "
+"techniquement, de manière érronée, \"balises alt\", sont utilisées dans un "
+"code HTML pour décrire l'apparence et la fonction d'une image sur une page."
+
+#: inc/faq.php:12
+msgid "How to use Alt text:"
+msgstr "Comment utiliser le texte alternatif:"
+
+#: inc/faq.php:15
+msgid ""
+"Adding alternative text to photos is first and foremost a principle of web "
+"accessibility. Visually impaired users using screen readers will be read an "
+"alt attribute to better understand an on-page image."
+msgstr ""
+"Ajouter du texte alternatif à vos images est avant tout un principe "
+"d’accessibilité du Web. Les utilisateurs malvoyants utilisant des lecteurs "
+"d'écran seront en mesure de mieux comprendre les images contenues sur la "
+"page à partir du texte alternatif.."
+
+#: inc/faq.php:16
+msgid ""
+"Alt tags will be displayed in place of an image if an image file cannot be "
+"loaded."
+msgstr ""
+"Les balises Alt seront affichées à la place d'une image si un fichier image "
+"ne peut pas être chargé par un navigateur."
+
+#: inc/faq.php:17
+msgid ""
+"Alt tags provide better image context/descriptions to search engine "
+"crawlers, helping them to index an image properly."
+msgstr ""
+"Les balises Alt fournissent une meilleure description (contexte) d'image aux "
+"robots d'indexation des moteurs de recherche, les aidant ainsi à les indexer "
+"correctement."
+
+#: inc/faq.php:26
+msgid "Appropriate length?"
+msgstr "Une longueur appropriée?"
+
+#: inc/faq.php:30
+msgid ""
+"Google seemed to count the first 16 words in the ALT tag and interestingly "
+"in the snippet Google uses, it does seem to completely cut off the rest of "
+"the ALT and from the 17th word. Having 16 words to work with might prove "
+"very useful if you are using ALT tags to describe more complex images. There "
+"is potentially plenty of available space to describe images properly for "
+"accessibility purposes AND SEO impact."
+msgstr ""
+"Google semble compter les 16 premiers mots de la balise ALT et il est "
+"intéressant de noter que l’extrait de code utilisé par Google semble avoir "
+"complètement coupé le reste du texte altenatif à partir du 17ème mot. Avoir "
+"16 mots à utiliser peut s'avérer très utile si vous utilisez des balises ALT "
+"pour décrire des images plus complexes. Il y a potentiellement beaucoup "
+"d'espace disponible pour décrire correctement les images à des fins "
+"d'accessibilité ET pour un impact SEO."
+
+#: inc/faq.php:39
+msgid "How Image Alt Tags and Meta Data Help SEO"
+msgstr ""
+"Comment le texte alternatif des images ainsi que les META données "
+"participent au SEO"
+
+#: inc/faq.php:43
+msgid ""
+"Optimizing your images for SEO helps crawlers better index your web pages, "
+"which in turn can give you a rankings boost because it can make the page "
+"more relevant to users."
+msgstr ""
+"Optimiser vos images pour des besoins SEO aide les robots d'indexation à "
+"mieux indexer vos pages Web ou vos produits, ce qui en retour peut vous "
+"procurer un boost de référencement pour la simple et bonne raison que vos "
+"pages deviennent plus pertinentes pour vos visiteurs."
+
+#: inc/faq.php:46
+msgid ""
+"Let’s say a searcher needs plumber repairs for a clogged bathroom drain. "
+"Google has to choose between two web pages from different companies, both of "
+"which have equal ranking factors."
+msgstr ""
+"Imaginons que quelqu'un ait besoin des services de réparation d'un plombier "
+"pour un drain de salle de bain bouché. Google doit choisir entre deux pages "
+"Web provenant de différentes entreprises, qui ont toutes deux des facteurs "
+"de référencement identiques."
+
+#: inc/faq.php:49
+msgid ""
+"As the crawler reads through the first page, it doesn’t identify any image "
+"alt-tags, therefore, it assumes the images (if there are any) do not add "
+"page-specific value. On the second page, however, the crawler locates five "
+"images, each one with a full description of what the image is showing. All "
+"five images’ alt tags supplement the rest of the text on the page."
+msgstr ""
+"Lorsque le robot d'exploration lit la première page, il n'identifie aucune "
+"balise Alt d'image, par conséquent, il suppose que les images (le cas "
+"échéant) n'ajoutent pas de valeur spécifique à la page. Sur la deuxième "
+"page, toutefois, le robot d'exploration localise cinq images, chacune "
+"contenant une description complète de l'image affichée. Les balises alt des "
+"cinq images complètent le reste du texte de la page."
+
+#: inc/faq.php:52
+msgid ""
+"Since Google is all about spitting out the results you’ll most likely jive "
+"with, it’s going to go with the article that it thinks is more relevant."
+msgstr ""
+"Comme Google se concentre sur les résultats les plus probants, cet article "
+"ira de pair avec l'article (le contenu) qui lui semble le plus pertinent."
+
+#: inc/notices.php:10
+#, php-format
+msgid ""
+"Boost your Google ranking with <a href=\"%s\" target=\"_blank\">BIALTY - "
+"Bulk Image Alt Text with Yoast SEO + WooCommerce PRO</a> | Get 10&#37; OFF "
+"if you subscribe here:"
+msgstr ""
+"Boostez votre référencement avec <a href=\"%s\" target=\"_blank\">BIALTY - "
+"Bulk Image Alt Text with Yoast SEO + WooCommerce PRO</a> | Obtenez 10&#37; "
+"de rabais en vous inscrivant ici:"
+
+#: inc/notices.php:16 inc/sidebar.php:13
+msgid "Email address"
+msgstr "Courriel (email)"
+
+#: inc/notices.php:19 inc/sidebar.php:16
+msgid "Subscribe"
+msgstr "Inscription"
+
+#: inc/notices.php:35
+#, php-format
+msgid ""
+"Show support for BIALTY - Bulk Image Alt Text (Alt tag, Alt Attribute) with "
+"Yoast SEO + WooCommerce with a 5-star rating » <a href=\"%s\" target=\"_blank"
+"\">Click here</a>"
+msgstr ""
+"Soutenez BIALTY - Bulk Image Alt Text (Alt tag, Alt Attribute) with Yoast "
+"SEO + WooCommerce avec un avis 5 étoiles: <a href=\"%s\" target=\"_blank"
+"\">Cliquez ici</a>"
+
+#: inc/sidebar.php:7
+msgid "Subscribe & get a 10% OFF"
+msgstr "Obtenez 10% de rabais à l'inscription"
+
+#: inc/sidebar.php:8
+#, php-format
+msgid ""
+"Enter your email to get our SEO best practice guide AND a 10% coupon code on "
+"BIALTY for Woocommerce plugin."
+msgstr ""
+"Entrez votre email pour obtenir notre guide des meilleure pratiques SEO ET "
+"obtenez un coupon rabais de 10% sur le plugin BIALTY (Woocommerce) PRO"
+
+#: inc/sidebar.php:24
+msgid "BOOST YOUR RANKING"
+msgstr "BOOSTER VOTRE RÉFÉRENCEMENT"
+
+#: inc/sidebar.php:25
+msgid ""
+"Optimize your Robots.txt with Better Robots.txt (made by PAGUP) & Boost your "
+"ranking on search engines."
+msgstr ""
+"Optimisez votre robots.txt avec Better Robots.txt (par PAGUP), boostez votre "
+"traffic et maximisez votre référencement sur les moteurs de recherche."
+
+#: inc/sidebar.php:26
+msgid "Try Better Robots.txt &raquo;"
+msgstr "Essayez Better Robots.txt &raquo;"
+
+#. Name of the plugin
+msgid ""
+"BIALTY - Bulk Image Alt Text (Alt tag, Alt Attribute) with Yoast SEO + "
+"WooCommerce"
+msgstr ""
+"BIALTY - Bulk Image Alt Text (Alt tag, Alt Attribute) with Yoast SEO + "
+"WooCommerce"
+
+#. Description of the plugin
+msgid ""
+"Auto-add Alt texts, also called Alt Tags or Alt Attributes, from YOAST SEO "
+"Focus Keyword field (or page/post/product title) with your page/post/product "
+"title, to all images contained on your pages, posts, products, portfolios "
+"for better Google Ranking on search engines – Fully compatible with "
+"Woocommerce"
+msgstr ""
+"Ajoute automatiquement des textes Alternatifs (Alt Text), également appelés "
+"balises Alt (tag) ou attributs Alt, à partir du mot-clé idenfité avec le "
+"widget \"Focus Keyword\" de YOAST SEO avec (ou pas) votre titre de page / "
+"article / produit, respectivement à toutes les images contenues dans vos "
+"pages, publications, produits, et ce, pour de meilleure performance sur les "
+"moteurs de recherche - 100% compatible avec Woocommerce"
+
+#. Author of the plugin
+msgid "Pagup"
+msgstr "Pagup"
+
+#. Author URI of the plugin
+msgid "https://pagup.com/"
+msgstr "https://pagup.com/"

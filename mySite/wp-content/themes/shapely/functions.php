@@ -422,5 +422,37 @@ Shapely_Builder::get_instance();
 
 
 
+/**
+ * 
+ * Functions added to restrict users from page and post categories without having to specify those permissions
+ * 
+ */
+
+add_action( 'template_redirect', 'bn_restrict_acom_content' );
+function bn_restrict_acom_content(){
+
+  if( ! is_user_logged_in() && ( is_category( [ 'members', 'acom' ] ) || in_category( [ 'members', 'acom' ] ) ) ) {
+    wp_redirect( '/mysite/wp-login.php' );
+    exit;
+  }
+
+  if( is_user_logged_in() && current_user_can( 'member' ) && ( is_category( 'acom' ) || in_category( 'acom' ) ) ) {
+    wp_redirect( '/mysite/wp-login.php' );
+    exit;
+  }
+}
+
+add_action( 'template_redirect', 'bn_rescrict_backend' );
+function bn_rescrict_backend(){
+  if( ! current_user_can( 'manage_options') && is_admin() ) {
+    wp_redirect( home_url() );
+    exit;
+  }
+}
+
+
+
+
+
 ?>
 

@@ -857,7 +857,7 @@ embed, iframe, object {
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-size: 14px;
+	font-size: 20px;
 	line-height: 24px;
 	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #8c979e;
@@ -983,7 +983,7 @@ h2 {
 }
 
 h3 {
-	font-size: 30px;
+	font-size: 38px;
 	line-height: 33px;
 }
 

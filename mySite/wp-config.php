@@ -31,6 +31,8 @@ define( 'DB_PASSWORD', '' );
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
 
+/** define('DB_PORT', '3316'); */
+
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
 
@@ -91,3 +93,4 @@ require_once( ABSPATH . 'wp-settings.php' );
 
 define( 'WPMS_ON', true );
 define( 'WPMS_SMTP_PASS', 'H0neyB@dger' );
+?>

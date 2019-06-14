@@ -1,0 +1,682 @@
+0000.002 (0) Opened log file at time: Wed, 12 Jun 2019 18:05:59 +0000 on http://localhost/mysite
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.1 PHP: 7.2.18 (apache2handler, Windows NT DESKTOP-JTVBDRC 10.0 build 17134 (Windows 10) AMD64) MySQL: 5.7.26 WPLANG: en_US Server: Apache/2.4.39 (Win64) PHP/7.2.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.2M | 4M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 28432.4 MB
+0000.011 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: twicedaily)
+0000.014 (0) Processed schedules. Combining jobs from co-inciding events. Tasks now: Backup files: 1 Backup DB: 1
+0000.018 (0) Semaphore (fd, wp_options) being initialised
+0000.021 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.023 (0) Set semaphore last lock (fd) time to 2019-06-12 18:05:59
+0000.024 (0) Semaphore lock (fd) complete
+0000.030 (0) Backup run: resumption=0, nonce=1654041fea90, file_nonce=1654041fea90 begun at=1560362759 (0s ago), job type=backup
+0000.032 (0) Scheduling a resumption (1) after 300 seconds (1560363059) in case this run gets aborted
+0000.053 (0) Checking if we have a zip executable available
+0000.056 (0) Creation of backups of directories: beginning
+0000.062 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0006.848 (0) Total entities for the zip file: 1684 directories, 8977 files (0 skipped as non-modified), 143.2 MB
+0006.858 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0007.028 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 100 files added (on-disk size: 287.7 KB)
+0007.091 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 200 files added (on-disk size: 287.7 KB)
+0007.150 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 300 files added (on-disk size: 287.7 KB)
+0007.205 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 400 files added (on-disk size: 287.7 KB)
+0007.266 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 500 files added (on-disk size: 287.7 KB)
+0007.269 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.6 MB, 8977 files batched, 501 (502) added so far); re-opening (prior size: 287.7 KB)
+0007.938 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 600 files added (on-disk size: 2396.3 KB)
+0007.994 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 700 files added (on-disk size: 2396.3 KB)
+0008.045 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 800 files added (on-disk size: 2396.3 KB)
+0008.097 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 900 files added (on-disk size: 2396.3 KB)
+0008.151 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 1000 files added (on-disk size: 2396.3 KB)
+0008.153 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (21.2 MB, 8977 files batched, 501 (1003) added so far); re-opening (prior size: 2396.3 KB)
+0009.260 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 1100 files added (on-disk size: 16944.8 KB)
+0009.313 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 1200 files added (on-disk size: 16944.8 KB)
+0009.367 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 1300 files added (on-disk size: 16944.8 KB)
+0009.420 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 1400 files added (on-disk size: 16944.8 KB)
+0009.474 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 1500 files added (on-disk size: 16944.8 KB)
+0009.478 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.9 MB, 8977 files batched, 501 (1504) added so far); re-opening (prior size: 16944.8 KB)
+0010.765 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 1600 files added (on-disk size: 21569.2 KB)
+0010.819 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 1700 files added (on-disk size: 21569.2 KB)
+0010.877 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 1800 files added (on-disk size: 21569.2 KB)
+0010.930 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 1900 files added (on-disk size: 21569.2 KB)
+0010.983 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 2000 files added (on-disk size: 21569.2 KB)
+0010.988 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.3 MB, 8977 files batched, 501 (2005) added so far); re-opening (prior size: 21569.2 KB)
+0011.735 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 2100 files added (on-disk size: 23316.1 KB)
+0011.791 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 2200 files added (on-disk size: 23316.1 KB)
+0011.861 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 2300 files added (on-disk size: 23316.1 KB)
+0011.920 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 2400 files added (on-disk size: 23316.1 KB)
+0011.990 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 2500 files added (on-disk size: 23316.1 KB)
+0011.997 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.6 MB, 8977 files batched, 501 (2506) added so far); re-opening (prior size: 23316.1 KB)
+0012.770 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 2600 files added (on-disk size: 24952.1 KB)
+0012.840 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 2700 files added (on-disk size: 24952.1 KB)
+0012.896 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 2800 files added (on-disk size: 24952.1 KB)
+0012.951 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 2900 files added (on-disk size: 24952.1 KB)
+0013.005 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 3000 files added (on-disk size: 24952.1 KB)
+0013.010 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.7 MB, 8977 files batched, 501 (3007) added so far); re-opening (prior size: 24952.1 KB)
+0014.377 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 3100 files added (on-disk size: 27936.6 KB)
+0014.430 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 3200 files added (on-disk size: 27936.6 KB)
+0014.489 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 3300 files added (on-disk size: 27936.6 KB)
+0014.544 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 3400 files added (on-disk size: 27936.6 KB)
+0014.600 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 3500 files added (on-disk size: 27936.6 KB)
+0014.605 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.5 MB, 8977 files batched, 501 (3508) added so far); re-opening (prior size: 27936.6 KB)
+0015.344 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 3600 files added (on-disk size: 29074 KB)
+0015.404 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 3700 files added (on-disk size: 29074 KB)
+0015.458 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 3800 files added (on-disk size: 29074 KB)
+0015.632 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 3900 files added (on-disk size: 29074 KB)
+0015.684 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 4000 files added (on-disk size: 29074 KB)
+0015.691 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.3 MB, 8977 files batched, 501 (4009) added so far); re-opening (prior size: 29074 KB)
+0016.834 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 4100 files added (on-disk size: 31834.8 KB)
+0016.885 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 4200 files added (on-disk size: 31834.8 KB)
+0016.937 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 4300 files added (on-disk size: 31834.8 KB)
+0016.989 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 4400 files added (on-disk size: 31834.8 KB)
+0017.048 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 4500 files added (on-disk size: 31834.8 KB)
+0017.054 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (13.5 MB, 8977 files batched, 501 (4510) added so far); re-opening (prior size: 31834.8 KB)
+0018.610 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 4600 files added (on-disk size: 39547.5 KB)
+0018.667 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 4700 files added (on-disk size: 39547.5 KB)
+0018.724 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 4800 files added (on-disk size: 39547.5 KB)
+0018.777 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 4900 files added (on-disk size: 39547.5 KB)
+0018.832 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 5000 files added (on-disk size: 39547.5 KB)
+0018.840 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7 MB, 8977 files batched, 501 (5011) added so far); re-opening (prior size: 39547.5 KB)
+0020.190 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 5100 files added (on-disk size: 43518.9 KB)
+0020.252 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 5200 files added (on-disk size: 43518.9 KB)
+0020.320 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 5300 files added (on-disk size: 43518.9 KB)
+0020.382 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 5400 files added (on-disk size: 43518.9 KB)
+0020.436 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 5500 files added (on-disk size: 43518.9 KB)
+0020.447 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.4 MB, 8977 files batched, 501 (5512) added so far); re-opening (prior size: 43518.9 KB)
+0021.547 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 5600 files added (on-disk size: 45350.8 KB)
+0021.616 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 5700 files added (on-disk size: 45350.8 KB)
+0021.676 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 5800 files added (on-disk size: 45350.8 KB)
+0021.742 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 5900 files added (on-disk size: 45350.8 KB)
+0021.800 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 6000 files added (on-disk size: 45350.8 KB)
+0021.811 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (16.5 MB, 8977 files batched, 501 (6013) added so far); re-opening (prior size: 45350.8 KB)
+0023.752 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 6100 files added (on-disk size: 49742.7 KB)
+0023.803 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 6200 files added (on-disk size: 49742.7 KB)
+0023.856 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 6300 files added (on-disk size: 49742.7 KB)
+0023.907 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 6400 files added (on-disk size: 49742.7 KB)
+0023.957 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 6500 files added (on-disk size: 49742.7 KB)
+0023.966 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.1 MB, 8977 files batched, 501 (6514) added so far); re-opening (prior size: 49742.7 KB)
+0024.821 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 6600 files added (on-disk size: 50710 KB)
+0024.875 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 6700 files added (on-disk size: 50710 KB)
+0024.928 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 6800 files added (on-disk size: 50710 KB)
+0024.982 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 6900 files added (on-disk size: 50710 KB)
+0025.034 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 7000 files added (on-disk size: 50710 KB)
+0025.043 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.6 MB, 8977 files batched, 501 (7015) added so far); re-opening (prior size: 50710 KB)
+0026.138 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 7100 files added (on-disk size: 51796 KB)
+0026.187 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 7200 files added (on-disk size: 51796 KB)
+0026.237 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 7300 files added (on-disk size: 51796 KB)
+0026.287 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 7400 files added (on-disk size: 51796 KB)
+0026.338 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 7500 files added (on-disk size: 51796 KB)
+0026.347 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11 MB, 8977 files batched, 501 (7516) added so far); re-opening (prior size: 51796 KB)
+0029.664 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 7600 files added (on-disk size: 56100.6 KB)
+0029.714 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 7700 files added (on-disk size: 56100.6 KB)
+0029.765 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 7800 files added (on-disk size: 56100.6 KB)
+0029.816 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 7900 files added (on-disk size: 56100.6 KB)
+0029.872 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 8000 files added (on-disk size: 56100.6 KB)
+0029.882 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.9 MB, 8977 files batched, 501 (8017) added so far); re-opening (prior size: 56100.6 KB)
+0030.689 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 8100 files added (on-disk size: 56810.1 KB)
+0030.739 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 8200 files added (on-disk size: 56810.1 KB)
+0030.788 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 8300 files added (on-disk size: 56810.1 KB)
+0030.839 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 8400 files added (on-disk size: 56810.1 KB)
+0030.891 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 8500 files added (on-disk size: 56810.1 KB)
+0030.902 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.5 MB, 8977 files batched, 501 (8518) added so far); re-opening (prior size: 56810.1 KB)
+0032.892 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 8600 files added (on-disk size: 60130.5 KB)
+0032.946 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 8700 files added (on-disk size: 60130.5 KB)
+0033.001 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 8800 files added (on-disk size: 60130.5 KB)
+0033.054 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip.tmp: 8900 files added (on-disk size: 60130.5 KB)
+0034.499 (0) Created plugins zip (0) - 60941.4 KB in 34.4 s (1769.9 KB/s) (sha1: 00747f395e201fe33ab16c32d7c133214e0c39a0, sha256: 5be850aaf89ea4fdd69f5aecc68c7819597866523e016239d2f31247fdcff998)
+0034.505 (0) Beginning creation of dump of themes (split every: 400 MB)
+0034.832 (0) Total entities for the zip file: 111 directories, 458 files (0 skipped as non-modified), 10.4 MB
+0034.893 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0034.949 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0035.000 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0035.052 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0035.906 (0) Created themes zip (0) - 5968.7 KB in 1.4 s (4273.4 KB/s) (sha1: 199b3b9fcebf707a59ffb54f749153909ac26435, sha256: 702bb874b2bf580705ddf7e95ae0a494c6ada466075c02a2584897da3e5dd5a6)
+0035.912 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0035.913 (0) Looking for candidates to backup in: C:\wamp64\www\mySite/wp-content/uploads
+0035.915 (0) finding files: .htaccess: adding to list (1)
+0035.916 (0) finding files: 2019: adding to list (2)
+0035.917 (0) finding files: elementor: adding to list (3)
+0035.918 (0) finding files: maxmegamenu: adding to list (4)
+0035.919 (0) finding files: redux: adding to list (5)
+0035.921 (0) finding files: shapely: adding to list (6)
+0035.922 (0) finding files: ultimatemember: adding to list (7)
+0035.924 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0036.136 (0) Total entities for the zip file: 10 directories, 367 files (0 skipped as non-modified), 54 MB
+0036.188 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0036.239 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0036.246 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.6 MB, 367 files batched, 210 (210) added so far); re-opening (prior size: 0 KB)
+0036.577 (0) A useful amount of data was added after this amount of zip processing: 1 s (normalised: 1 s, rate: 26819.6 KB/s)
+0036.579 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.97743892669678, normalised_time=0.95452563609586, max_time=36.576023101807, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0036.627 (0) Zip: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip.tmp: 300 files added (on-disk size: 26251.6 KB)
+0037.718 (0) Created uploads zip (0) - 55204.3 KB in 1.8 s (30847.8 KB/s) (sha1: 25a7ad1b6cac30f32779ba873e28f8d32a4760e1, sha256: 62266a84377521b3906af32039b06072fdc03de458c4b75f6c7b9bdf813cada9)
+0037.724 (0) Beginning backup of other directories found in the content directory (index: 0)
+0037.725 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0037.726 (0) Looking for candidates to backup in: C:\wamp64\www\mySite/wp-content
+0037.727 (0) finding files: index.php: adding to list (1)
+0037.728 (0) finding files: languages: adding to list (2)
+0037.729 (0) finding files: plugins: skipping: this is the plugins directory
+0037.730 (0) finding files: themes: skipping: this is the themes directory
+0037.731 (0) finding files: updraft: skipping: this is the updraft directory
+0037.733 (0) finding files: upgrade: skipping: excluded by options
+0037.734 (0) finding files: uploads: skipping: this is the uploads directory
+0037.746 (0) Total entities for the zip file: 2 directories, 1 files (0 skipped as non-modified), 0 MB
+0037.756 (0) Created others zip (0) - 0.3 KB in 0 s (20.7 KB/s) (sha1: 429e80c73e6ac0355f7f78eab93619512ad25025, sha256: 13072cc2188b4a971adcaee1b835a8225afcd7250c89f9063772af9e7a370541)
+0037.763 (0) Saving backup status to database (elements: 8)
+0037.766 (0) Beginning creation of database dump (WordPress DB)
+0037.771 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysqldump.exe
+0037.900 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n SET character_set_client = utf8mb4 ;\nCREATE TAB (truncated - 1201 bytes total)
+0037.911 (0) Binary mysqldump: error (code: 2)
+0037.914 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe
+0038.302 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n SET character_set_client = utf8mb4 ;\nCREATE TAB (truncated - 1201 bytes total)
+0038.312 (0) Binary mysqldump: error (code: 2)
+0038.326 (0) Table wp_options: Total expected rows (approximate): 416
+0038.388 (0) Table wp_options: Total rows added: 412 in 0.06 seconds
+0038.390 (0) Table wp_options: finishing file (backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_options.table.gz - 257.8 KB)
+0038.397 (0) Table wp_users: Total expected rows (approximate): 16
+0038.401 (0) Table wp_users: Total rows added: 16 in 0.00 seconds
+0038.402 (0) Table wp_users: finishing file (backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_users.table.gz - 1.8 KB)
+0038.409 (0) Table wp_usermeta: Total expected rows (approximate): 494
+0038.422 (0) Table wp_usermeta: Total rows added: 494 in 0.01 seconds
+0038.424 (0) Table wp_usermeta: finishing file (backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_usermeta.table.gz - 6.3 KB)
+0038.431 (0) Table wp_commentmeta: Total expected rows (approximate): 2
+0038.434 (0) Table wp_commentmeta: Total rows added: 2 in 0.00 seconds
+0038.435 (0) Table wp_commentmeta: finishing file (backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0038.442 (0) Table wp_comments: Total expected rows (approximate): 3
+0038.445 (0) Table wp_comments: Total rows added: 3 in 0.00 seconds
+0038.446 (0) Table wp_comments: finishing file (backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_comments.table.gz - 0.9 KB)
+0038.453 (0) Table wp_links: Total expected rows (approximate): 0
+0038.455 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0038.457 (0) Table wp_links: finishing file (backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_links.table.gz - 0.4 KB)
+0038.464 (0) Table wp_postmeta: Total expected rows (approximate): 1096
+0038.492 (0) Table wp_postmeta: Total rows added: 1096 in 0.03 seconds
+0038.494 (0) Table wp_postmeta: finishing file (backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_postmeta.table.gz - 19.6 KB)
+0038.500 (0) Table wp_posts: Total expected rows (approximate): 357
+0038.549 (0) Table wp_posts: Total rows added: 357 in 0.05 seconds
+0038.551 (0) Table wp_posts: finishing file (backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_posts.table.gz - 48.5 KB)
+0038.557 (0) Table wp_term_relationships: Total expected rows (approximate): 45
+0038.561 (0) Table wp_term_relationships: Total rows added: 45 in 0.00 seconds
+0038.562 (0) Table wp_term_relationships: finishing file (backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0038.569 (0) Table wp_term_taxonomy: Total expected rows (approximate): 9
+0038.572 (0) Table wp_term_taxonomy: Total rows added: 9 in 0.00 seconds
+0038.573 (0) Table wp_term_taxonomy: finishing file (backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0038.580 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0038.582 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0038.584 (0) Table wp_termmeta: finishing file (backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_termmeta.table.gz - 0.4 KB)
+0038.590 (0) Table wp_terms: Total expected rows (approximate): 9
+0038.593 (0) Table wp_terms: Total rows added: 9 in 0.00 seconds
+0038.595 (0) Table wp_terms: finishing file (backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_terms.table.gz - 0.5 KB)
+0038.602 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 0
+0038.604 (0) Table wp_yoast_seo_links: Total rows added: 0 in 0.00 seconds
+0038.605 (0) Table wp_yoast_seo_links: finishing file (backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_yoast_seo_links.table.gz - 0.4 KB)
+0038.612 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 0
+0038.614 (0) Table wp_yoast_seo_meta: Total rows added: 0 in 0.00 seconds
+0038.615 (0) Table wp_yoast_seo_meta: finishing file (backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_yoast_seo_meta.table.gz - 0.3 KB)
+0038.624 (0) Table wp_duplicator_packages: Total expected rows (approximate): 1
+0038.627 (0) Table wp_duplicator_packages: Total rows added: 1 in 0.00 seconds
+0038.629 (0) Table wp_duplicator_packages: finishing file (backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_duplicator_packages.table.gz - 2.2 KB)
+0038.635 (0) Table wp_podsrel: Total expected rows (approximate): 0
+0038.637 (0) Table wp_podsrel: Total rows added: 0 in 0.00 seconds
+0038.639 (0) Table wp_podsrel: finishing file (backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_podsrel.table.gz - 0.4 KB)
+0038.645 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_options.table.gz (1/16): adding to final database dump
+0038.691 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_users.table.gz (2/16): adding to final database dump
+0038.694 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_usermeta.table.gz (3/16): adding to final database dump
+0038.698 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_commentmeta.table.gz (4/16): adding to final database dump
+0038.700 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_comments.table.gz (5/16): adding to final database dump
+0038.702 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_links.table.gz (6/16): adding to final database dump
+0038.703 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_postmeta.table.gz (7/16): adding to final database dump
+0038.713 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_posts.table.gz (8/16): adding to final database dump
+0038.724 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_term_relationships.table.gz (9/16): adding to final database dump
+0038.726 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_term_taxonomy.table.gz (10/16): adding to final database dump
+0038.728 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_termmeta.table.gz (11/16): adding to final database dump
+0038.729 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_terms.table.gz (12/16): adding to final database dump
+0038.731 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_yoast_seo_links.table.gz (13/16): adding to final database dump
+0038.733 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_yoast_seo_meta.table.gz (14/16): adding to final database dump
+0038.734 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_duplicator_packages.table.gz (15/16): adding to final database dump
+0038.736 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db-table-wp_podsrel.table.gz (16/16): adding to final database dump
+0038.739 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db.gz: finished writing out complete database file (312 KB)
+0038.753 (0) Total database tables backed up: 16 (backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db.gz, size: 345609, sha256)
+0038.763 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0038.765 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0038.769 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0038.771 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-others.zip: others: This file has not yet been successfully uploaded: will queue
+0038.773 (0) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db.gz: db: This file has not yet been successfully uploaded: will queue
+0038.775 (0) Saving backup history. Total backup size: 119.6 MB
+0038.780 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0038.784 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0038.787 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d67d4aa0064a3f2c7d586d8154e3a841)
+0038.788 (0) Google Drive: this account is not authorised
+0038.789 (0) An error condition has occurred for the first time during this job
+0038.792 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0038.794 (0) Number of backup sets in history: 1; groups (db): 1
+0038.795 (0) Examining (for databases) backup set with group_id=0, nonce=1654041fea90, datestamp=1560362759 (Jun 12 2019 18:05:59)
+0038.796 (0) This backup set is the backup set just made, so will not be deleted.
+0038.796 (0) Number of backup sets in history: 1; groups (files): 1
+0038.797 (0) Examining (for files) backup set with nonce=1654041fea90, datestamp=1560362759 (Jun 12 2019 18:05:59)
+0038.797 (0) This backup set is the backup set just made, so will not be deleted.
+0038.798 (0) This backup set is the backup set just made, so will not be deleted.
+0038.799 (0) This backup set is the backup set just made, so will not be deleted.
+0038.799 (0) This backup set is the backup set just made, so will not be deleted.
+0038.799 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.800 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0038.804 (0) Resume backup (1654041fea90, 0): finish run
+0038.807 (0) Decremented the semaphore (fd) by 1
+0038.808 (0) Semaphore (fd) unlocked
+0038.809 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0038.813 (0) Rescheduling resumption 1: moving to 100 seconds from now (1560362898)
+0038.815 (0) No email will/can be sent - the user has not configured an email address.
+0038.816 (0) The backup has not finished; a resumption is scheduled
+0140.577 (1) Opened log file at time: Wed, 12 Jun 2019 18:08:19 +0000 on http://localhost/mysite
+0140.579 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.1 PHP: 7.2.18 (apache2handler, Windows NT DESKTOP-JTVBDRC 10.0 build 17134 (Windows 10) AMD64) MySQL: 5.7.26 WPLANG: en_US Server: Apache/2.4.39 (Win64) PHP/7.2.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.3M | 2M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0140.580 (1) Free space on disk containing Updraft's temporary directory: 28309.3 MB
+0140.583 (1) Backup run: resumption=1, nonce=1654041fea90, file_nonce=1654041fea90 begun at=1560362759 (140s ago), job type=backup, previous check-in=38.6s
+0140.586 (1) Scheduling a resumption (2) after 300 seconds (1560363199) in case this run gets aborted
+0140.589 (1) Checking if we have a zip executable available
+0140.590 (1) Creation of backups of directories: already finished
+0140.593 (1) Saving backup status to database (elements: 8)
+0140.596 (1) Database dump (WordPress DB): Creation was completed already
+0140.602 (1) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0140.603 (1) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0140.605 (1) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0140.606 (1) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-others.zip: others: This file has not yet been successfully uploaded: will queue
+0140.607 (1) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db.gz: db: This file has not yet been successfully uploaded: will queue
+0140.608 (1) Saving backup history. Total backup size: 119.6 MB
+0140.611 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0140.614 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0140.616 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d67d4aa0064a3f2c7d586d8154e3a841)
+0141.267 (1) Google Drive: creating path: /UpdraftPlus
+0142.395 (1) Google Drive: quota usage: used=0 MB, total=15360 MB, available=15360 MB
+0142.397 (1) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+0144.346 (1) Googledrive chunked upload: 1.7 % uploaded (1048576)
+0146.496 (1) Googledrive chunked upload: 3.4 % uploaded (2097152)
+0148.163 (1) Googledrive chunked upload: 5 % uploaded (3145728)
+0149.463 (1) Googledrive chunked upload: 6.7 % uploaded (4194304)
+0150.825 (1) Googledrive chunked upload: 8.4 % uploaded (5242880)
+0152.205 (1) Googledrive chunked upload: 10.1 % uploaded (6291456)
+0154.674 (1) Googledrive chunked upload: 11.8 % uploaded (7340032)
+0156.331 (1) Googledrive chunked upload: 13.4 % uploaded (8388608)
+0158.060 (1) Googledrive chunked upload: 15.1 % uploaded (9437184)
+0159.372 (1) Googledrive chunked upload: 16.8 % uploaded (10485760)
+0219.380 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0219.381 (1) An error condition has occurred for the first time during this job
+0219.757 (1) Google Drive: quota usage: used=0 MB, total=15360 MB, available=15360 MB
+0219.759 (1) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+0280.198 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0280.465 (1) Google Drive: quota usage: used=0 MB, total=15360 MB, available=15360 MB
+0280.467 (1) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+0282.099 (1) Googledrive chunked upload: 1.9 % uploaded (1048576)
+0283.423 (1) Googledrive chunked upload: 3.7 % uploaded (2097152)
+0343.431 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0343.790 (1) Google Drive: quota usage: used=0 MB, total=15360 MB, available=15360 MB
+0343.791 (1) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-others.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+0344.969 (1) Googledrive chunked upload: 100 % uploaded
+0344.974 (1) Google Drive: OK: Archive backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-others.zip uploaded in 1.18 seconds
+0344.975 (1) Recording as successfully uploaded: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-others.zip
+0344.979 (1) Deleting local file: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-others.zip: OK
+0345.452 (1) Google Drive: quota usage: used=0 MB, total=15360 MB, available=15360 MB
+0345.454 (1) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db.gz: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+0347.517 (1) Googledrive chunked upload: 100 % uploaded
+0347.522 (1) Google Drive: OK: Archive backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db.gz uploaded in 2.07 seconds
+0347.523 (1) Recording as successfully uploaded: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db.gz
+0347.527 (1) Deleting local file: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db.gz: OK
+0347.530 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0347.532 (1) Number of backup sets in history: 1; groups (db): 1
+0347.533 (1) Examining (for databases) backup set with group_id=0, nonce=db39a46cba30, datestamp=1560362759 (Jun 12 2019 18:05:59)
+0347.534 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0347.535 (1) Number of backup sets in history: 1; groups (files): 1
+0347.536 (1) Examining (for files) backup set with nonce=db39a46cba30, datestamp=1560362759 (Jun 12 2019 18:05:59)
+0347.536 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0347.537 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0347.541 (1) Resume backup (1654041fea90, 1): finish run
+0347.543 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0347.546 (1) No email will/can be sent - the user has not configured an email address.
+0347.547 (1) The backup has not finished; a resumption is scheduled
+0447.741 (2) Opened log file at time: Wed, 12 Jun 2019 18:13:27 +0000 on http://localhost/mysite
+0447.743 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.1 PHP: 7.2.18 (apache2handler, Windows NT DESKTOP-JTVBDRC 10.0 build 17134 (Windows 10) AMD64) MySQL: 5.7.26 WPLANG: en_US Server: Apache/2.4.39 (Win64) PHP/7.2.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.4M | 2M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0447.744 (2) Free space on disk containing Updraft's temporary directory: 28273.9 MB
+0447.747 (2) Backup run: resumption=2, nonce=1654041fea90, file_nonce=1654041fea90 begun at=1560362759 (448s ago), job type=backup, previous check-in=206.9s
+0447.749 (2) Scheduling a resumption (3) after 300 seconds (1560363507) in case this run gets aborted
+0447.753 (2) Checking if we have a zip executable available
+0447.754 (2) Creation of backups of directories: already finished
+0447.756 (2) Saving backup status to database (elements: 8)
+0447.759 (2) Database dump (WordPress DB): Creation was completed already
+0447.763 (2) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0447.764 (2) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0447.766 (2) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0447.767 (2) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-others.zip: others: This file has already been successfully uploaded
+0447.768 (2) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db.gz: db: This file has already been successfully uploaded
+0447.769 (2) Saving backup history. Total backup size: Unknown
+0447.772 (2) Requesting upload of the files that have not yet been successfully uploaded (3)
+0447.775 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0447.776 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d67d4aa0064a3f2c7d586d8154e3a841)
+0448.948 (2) Google Drive: quota usage: used=0.3 MB, total=15360 MB, available=15359.7 MB
+0448.950 (2) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+0449.135 (2) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: upload already began; attempting to resume from byte 11272191
+0509.140 (2) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0509.141 (2) An error condition has occurred for the first time during this job
+0509.451 (2) Google Drive: quota usage: used=0.3 MB, total=15360 MB, available=15359.7 MB
+0509.452 (2) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+0512.503 (2) Googledrive chunked upload: 17.2 % uploaded (1048576)
+0513.813 (2) Googledrive chunked upload: 34.3 % uploaded (2097152)
+0515.455 (2) Googledrive chunked upload: 51.5 % uploaded (3145728)
+0517.345 (2) Googledrive chunked upload: 68.6 % uploaded (4194304)
+0518.588 (2) Googledrive chunked upload: 85.8 % uploaded (5242880)
+0520.759 (2) Googledrive chunked upload: 100 % uploaded (5242880)
+0520.766 (2) Google Drive: OK: Archive backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip uploaded in 11.31 seconds
+0520.767 (2) Recording as successfully uploaded: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip
+0520.772 (2) Deleting local file: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip: OK
+0521.220 (2) Google Drive: quota usage: used=6.2 MB, total=15360 MB, available=15353.8 MB
+0521.222 (2) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+0521.388 (2) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: upload already began; attempting to resume from byte 2883583
+0581.392 (2) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0581.396 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0581.400 (2) Number of backup sets in history: 1; groups (db): 1
+0581.402 (2) Examining (for databases) backup set with group_id=0, nonce=db39a46cba30, datestamp=1560362759 (Jun 12 2019 18:05:59)
+0581.404 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0581.406 (2) Number of backup sets in history: 1; groups (files): 1
+0581.408 (2) Examining (for files) backup set with nonce=db39a46cba30, datestamp=1560362759 (Jun 12 2019 18:05:59)
+0581.408 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0581.412 (2) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0581.417 (2) Resume backup (1654041fea90, 2): finish run
+0581.419 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0581.422 (2) No email will/can be sent - the user has not configured an email address.
+0581.423 (2) The backup has not finished; a resumption is scheduled
+0749.063 (3) Opened log file at time: Wed, 12 Jun 2019 18:18:28 +0000 on http://localhost/mysite
+0749.065 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.1 PHP: 7.2.18 (apache2handler, Windows NT DESKTOP-JTVBDRC 10.0 build 17134 (Windows 10) AMD64) MySQL: 5.7.26 WPLANG: en_US Server: Apache/2.4.39 (Win64) PHP/7.2.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.4M | 2M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0749.066 (3) Free space on disk containing Updraft's temporary directory: 27178.2 MB
+0749.069 (3) Backup run: resumption=3, nonce=1654041fea90, file_nonce=1654041fea90 begun at=1560362759 (749s ago), job type=backup, previous check-in=73s
+0749.072 (3) Scheduling a resumption (4) after 300 seconds (1560363808) in case this run gets aborted
+0749.076 (3) Checking if we have a zip executable available
+0749.077 (3) Creation of backups of directories: already finished
+0749.079 (3) Saving backup status to database (elements: 8)
+0749.083 (3) Database dump (WordPress DB): Creation was completed already
+0749.088 (3) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0749.089 (3) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip: themes: This file has already been successfully uploaded
+0749.090 (3) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0749.092 (3) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-others.zip: others: This file has already been successfully uploaded
+0749.093 (3) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db.gz: db: This file has already been successfully uploaded
+0749.094 (3) Saving backup history. Total backup size: Unknown
+0749.097 (3) Requesting upload of the files that have not yet been successfully uploaded (2)
+0749.101 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0749.102 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d67d4aa0064a3f2c7d586d8154e3a841)
+0750.239 (3) Google Drive: quota usage: used=6.2 MB, total=15360 MB, available=15353.8 MB
+0750.241 (3) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+0750.551 (3) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: upload already began; attempting to resume from byte 12058623
+0752.115 (3) Googledrive chunked upload: 21 % uploaded (13107200)
+0754.381 (3) Googledrive chunked upload: 22.7 % uploaded (14155776)
+0814.390 (3) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0814.392 (3) An error condition has occurred for the first time during this job
+0814.646 (3) Google Drive: quota usage: used=6.2 MB, total=15360 MB, available=15353.8 MB
+0814.648 (3) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+0814.765 (3) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: upload already began; attempting to resume from byte 3670015
+0816.496 (3) Googledrive chunked upload: 8.3 % uploaded (4718592)
+0817.852 (3) Googledrive chunked upload: 10.2 % uploaded (5767168)
+0877.857 (3) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0877.861 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0877.863 (3) Number of backup sets in history: 2; groups (db): 1
+0877.864 (3) Examining (for databases) backup set with group_id=0, nonce=a4cccf4bde63, datestamp=1560363494 (Jun 12 2019 18:18:14)
+0877.865 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0877.867 (3) Examining (for databases) backup set with group_id=0, nonce=1654041fea90, datestamp=1560362759 (Jun 12 2019 18:05:59)
+0877.867 (3) This backup set is the backup set just made, so will not be deleted.
+0877.867 (3) Number of backup sets in history: 2; groups (files): 1
+0877.868 (3) Examining (for files) backup set with nonce=a4cccf4bde63, datestamp=1560363494 (Jun 12 2019 18:18:14)
+0877.868 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0877.869 (3) Examining (for files) backup set with nonce=1654041fea90, datestamp=1560362759 (Jun 12 2019 18:05:59)
+0877.869 (3) This backup set is the backup set just made, so will not be deleted.
+0877.870 (3) This backup set is the backup set just made, so will not be deleted.
+0877.870 (3) This backup set is the backup set just made, so will not be deleted.
+0877.870 (3) This backup set is the backup set just made, so will not be deleted.
+0877.871 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0877.872 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0877.875 (3) Resume backup (1654041fea90, 3): finish run
+0877.877 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0877.881 (3) No email will/can be sent - the user has not configured an email address.
+0877.882 (3) The backup has not finished; a resumption is scheduled
+1099.091 (3) Opened log file at time: Wed, 12 Jun 2019 18:24:18 +0000 on http://localhost/mysite
+1099.092 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.1 PHP: 7.2.18 (apache2handler, Windows NT DESKTOP-JTVBDRC 10.0 build 17134 (Windows 10) AMD64) MySQL: 5.7.26 WPLANG: en_US Server: Apache/2.4.39 (Win64) PHP/7.2.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.4M | 2M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+1099.093 (3) Free space on disk containing Updraft's temporary directory: 27102.1 MB
+1099.098 (3) Backup run: resumption=3, nonce=1654041fea90, file_nonce=1654041fea90 begun at=1560362759 (1099s ago), job type=backup, previous check-in=73s
+1099.099 (3) Scheduling a resumption (4) after 300 seconds (1560364158) in case this run gets aborted
+1099.103 (3) Checking if we have a zip executable available
+1099.104 (3) Creation of backups of directories: already finished
+1099.107 (3) Saving backup status to database (elements: 8)
+1099.113 (3) Database dump (WordPress DB): Creation was completed already
+1099.119 (3) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1099.120 (3) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip: themes: This file has already been successfully uploaded
+1099.121 (3) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1099.122 (3) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-others.zip: others: This file has already been successfully uploaded
+1099.123 (3) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db.gz: db: This file has already been successfully uploaded
+1099.124 (3) Saving backup history. Total backup size: Unknown
+1099.128 (3) Requesting upload of the files that have not yet been successfully uploaded (2)
+1099.131 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1099.133 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d67d4aa0064a3f2c7d586d8154e3a841)
+1100.513 (3) Google Drive: quota usage: used=6.5 MB, total=15360 MB, available=15353.5 MB
+1100.514 (3) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+1100.688 (3) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: upload already began; attempting to resume from byte 15204351
+1160.694 (3) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1160.695 (3) An error condition has occurred for the first time during this job
+1161.060 (3) Google Drive: quota usage: used=6.5 MB, total=15360 MB, available=15353.5 MB
+1161.061 (3) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+1161.227 (3) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: upload already began; attempting to resume from byte 6553599
+1221.232 (3) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1221.236 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+1221.238 (3) Number of backup sets in history: 2; groups (db): 1
+1221.239 (3) Examining (for databases) backup set with group_id=0, nonce=a4cccf4bde63, datestamp=1560363494 (Jun 12 2019 18:18:14)
+1221.240 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1221.242 (3) Examining (for databases) backup set with group_id=0, nonce=db39a46cba30, datestamp=1560362759 (Jun 12 2019 18:05:59)
+1221.242 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1221.242 (3) Number of backup sets in history: 2; groups (files): 1
+1221.243 (3) Examining (for files) backup set with nonce=a4cccf4bde63, datestamp=1560363494 (Jun 12 2019 18:18:14)
+1221.243 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1221.244 (3) Examining (for files) backup set with nonce=db39a46cba30, datestamp=1560362759 (Jun 12 2019 18:05:59)
+1221.245 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1221.245 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1221.248 (3) Resume backup (1654041fea90, 3): finish run
+1221.250 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1221.253 (3) No email will/can be sent - the user has not configured an email address.
+1221.254 (3) The backup has not finished; a resumption is scheduled
+1399.282 (4) Opened log file at time: Wed, 12 Jun 2019 18:29:18 +0000 on http://localhost/mysite
+1399.284 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.1 PHP: 7.2.18 (apache2handler, Windows NT DESKTOP-JTVBDRC 10.0 build 17134 (Windows 10) AMD64) MySQL: 5.7.26 WPLANG: en_US Server: Apache/2.4.39 (Win64) PHP/7.2.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.4M | 2M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+1399.285 (4) Free space on disk containing Updraft's temporary directory: 27116.2 MB
+1399.288 (4) Backup run: resumption=4, nonce=1654041fea90, file_nonce=1654041fea90 begun at=1560362759 (1399s ago), job type=backup, previous check-in=68.8s
+1399.291 (4) Scheduling a resumption (5) after 300 seconds (1560364458) in case this run gets aborted
+1399.294 (4) Checking if we have a zip executable available
+1399.296 (4) Creation of backups of directories: already finished
+1399.298 (4) Saving backup status to database (elements: 8)
+1399.304 (4) Database dump (WordPress DB): Creation was completed already
+1399.310 (4) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1399.311 (4) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip: themes: This file has already been successfully uploaded
+1399.313 (4) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1399.314 (4) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-others.zip: others: This file has already been successfully uploaded
+1399.316 (4) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db.gz: db: This file has already been successfully uploaded
+1399.317 (4) Saving backup history. Total backup size: Unknown
+1399.321 (4) Requesting upload of the files that have not yet been successfully uploaded (2)
+1399.325 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1399.327 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d67d4aa0064a3f2c7d586d8154e3a841)
+1400.253 (4) Google Drive: quota usage: used=6.5 MB, total=15360 MB, available=15353.5 MB
+1400.254 (4) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+1400.368 (4) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: upload already began; attempting to resume from byte 15990783
+1401.658 (4) Googledrive chunked upload: 27.3 % uploaded (17039360)
+1402.966 (4) Googledrive chunked upload: 29 % uploaded (18087936)
+1404.321 (4) Googledrive chunked upload: 30.7 % uploaded (19136512)
+1405.621 (4) Googledrive chunked upload: 32.3 % uploaded (20185088)
+1407.362 (4) Googledrive chunked upload: 34 % uploaded (21233664)
+1408.734 (4) Googledrive chunked upload: 35.7 % uploaded (22282240)
+1410.016 (4) Googledrive chunked upload: 37.4 % uploaded (23330816)
+1415.097 (4) Googledrive chunked upload: 39.1 % uploaded (24379392)
+1475.105 (4) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1475.106 (4) An error condition has occurred for the first time during this job
+1475.690 (4) Google Drive: quota usage: used=6.5 MB, total=15360 MB, available=15353.5 MB
+1475.692 (4) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+1475.831 (4) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: upload already began; attempting to resume from byte 7340031
+1535.838 (4) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1535.842 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+1535.844 (4) Number of backup sets in history: 2; groups (db): 1
+1535.846 (4) Examining (for databases) backup set with group_id=0, nonce=a4cccf4bde63, datestamp=1560363494 (Jun 12 2019 18:18:14)
+1535.847 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1535.848 (4) Examining (for databases) backup set with group_id=0, nonce=1654041fea90, datestamp=1560362759 (Jun 12 2019 18:05:59)
+1535.848 (4) This backup set is the backup set just made, so will not be deleted.
+1535.848 (4) Number of backup sets in history: 2; groups (files): 1
+1535.849 (4) Examining (for files) backup set with nonce=a4cccf4bde63, datestamp=1560363494 (Jun 12 2019 18:18:14)
+1535.849 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1535.850 (4) Examining (for files) backup set with nonce=1654041fea90, datestamp=1560362759 (Jun 12 2019 18:05:59)
+1535.850 (4) This backup set is the backup set just made, so will not be deleted.
+1535.851 (4) This backup set is the backup set just made, so will not be deleted.
+1535.852 (4) This backup set is the backup set just made, so will not be deleted.
+1535.852 (4) This backup set is the backup set just made, so will not be deleted.
+1535.852 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1535.853 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1535.858 (4) Resume backup (1654041fea90, 4): finish run
+1535.860 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1535.863 (4) No email will/can be sent - the user has not configured an email address.
+1535.864 (4) The backup has not finished; a resumption is scheduled
+1701.194 (5) Opened log file at time: Wed, 12 Jun 2019 18:34:20 +0000 on http://localhost/mysite
+1701.197 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.1 PHP: 7.2.18 (apache2handler, Windows NT DESKTOP-JTVBDRC 10.0 build 17134 (Windows 10) AMD64) MySQL: 5.7.26 WPLANG: en_US Server: Apache/2.4.39 (Win64) PHP/7.2.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.4M | 2M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+1701.198 (5) Free space on disk containing Updraft's temporary directory: 27109.8 MB
+1701.202 (5) Backup run: resumption=5, nonce=1654041fea90, file_nonce=1654041fea90 begun at=1560362759 (1701s ago), job type=backup, previous check-in=15.8s
+1701.207 (5) Scheduling a resumption (6) after 300 seconds (1560364760) in case this run gets aborted
+1701.211 (5) Checking if we have a zip executable available
+1701.212 (5) Creation of backups of directories: already finished
+1701.216 (5) Saving backup status to database (elements: 8)
+1701.224 (5) Database dump (WordPress DB): Creation was completed already
+1701.231 (5) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1701.232 (5) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip: themes: This file has already been successfully uploaded
+1701.234 (5) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1701.236 (5) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-others.zip: others: This file has already been successfully uploaded
+1701.238 (5) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db.gz: db: This file has already been successfully uploaded
+1701.240 (5) Saving backup history. Total backup size: Unknown
+1701.247 (5) Requesting upload of the files that have not yet been successfully uploaded (2)
+1701.252 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1701.255 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d67d4aa0064a3f2c7d586d8154e3a841)
+1701.481 (5) Opened log file at time: Wed, 12 Jun 2019 18:34:20 +0000 on http://localhost/mysite
+1701.483 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.1 PHP: 7.2.18 (apache2handler, Windows NT DESKTOP-JTVBDRC 10.0 build 17134 (Windows 10) AMD64) MySQL: 5.7.26 WPLANG: en_US Server: Apache/2.4.39 (Win64) PHP/7.2.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.4M | 10M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+1701.484 (5) Free space on disk containing Updraft's temporary directory: 27109.8 MB
+1701.488 (5) Backup run: resumption=5, nonce=1654041fea90, file_nonce=1654041fea90 begun at=1560362759 (1701s ago), job type=backup, previous check-in=15.8s
+1701.490 (5) Scheduling a resumption (6) after 300 seconds (1560364760) in case this run gets aborted
+1701.495 (5) Checking if we have a zip executable available
+1701.497 (5) Creation of backups of directories: already finished
+1701.501 (5) Saving backup status to database (elements: 8)
+1701.508 (5) Database dump (WordPress DB): Creation was completed already
+1701.517 (5) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1701.519 (5) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip: themes: This file has already been successfully uploaded
+1701.521 (5) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1701.523 (5) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-others.zip: others: This file has already been successfully uploaded
+1701.525 (5) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db.gz: db: This file has already been successfully uploaded
+1701.527 (5) Saving backup history. Total backup size: Unknown
+1701.534 (5) Requesting upload of the files that have not yet been successfully uploaded (2)
+1701.537 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1701.540 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d67d4aa0064a3f2c7d586d8154e3a841)
+1702.104 (5) Google Drive: quota usage: used=6.5 MB, total=15360 MB, available=15353.5 MB
+1702.107 (5) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+1702.245 (5) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: upload already began; attempting to resume from byte 25165823
+1702.382 (5) Google Drive: quota usage: used=6.5 MB, total=15360 MB, available=15353.5 MB
+1702.384 (5) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+1702.755 (5) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: upload already began; attempting to resume from byte 25165823
+1703.984 (5) Google Drive: ERROR: upload error (Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=AEnB2Up0UoIj0u3rIkYnnOs6CjE0MPfvADhPZ24sLPvgLq2Tmeogzz7eqV3Xa00u3tTJvlQQ1CwvL_9nKGWtCyd0TwGM8pm85g: (503)  (line: 110, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+1706.096 (5) Googledrive chunked upload: 1.7 % uploaded (1048576)
+1707.440 (5) Googledrive chunked upload: 3.4 % uploaded (2097152)
+1708.769 (5) Googledrive chunked upload: 5 % uploaded (3145728)
+1710.035 (5) Googledrive chunked upload: 6.7 % uploaded (4194304)
+1711.334 (5) Googledrive chunked upload: 8.4 % uploaded (5242880)
+1712.678 (5) Googledrive chunked upload: 10.1 % uploaded (6291456)
+1713.979 (5) Googledrive chunked upload: 11.8 % uploaded (7340032)
+1715.612 (5) Googledrive chunked upload: 13.4 % uploaded (8388608)
+1716.912 (5) Googledrive chunked upload: 15.1 % uploaded (9437184)
+1762.764 (5) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1762.765 (5) An error condition has occurred for the first time during this job
+1763.057 (5) Google Drive: quota usage: used=6.5 MB, total=15360 MB, available=15353.5 MB
+1763.059 (5) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+1763.184 (5) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: upload already began; attempting to resume from byte 8126463
+1764.489 (5) Googledrive chunked upload: 16.2 % uploaded (9175040)
+1765.936 (5) Googledrive chunked upload: 18.1 % uploaded (10223616)
+1767.318 (5) Googledrive chunked upload: 19.9 % uploaded (11272192)
+1768.596 (5) Googledrive chunked upload: 21.8 % uploaded (12320768)
+1769.859 (5) Googledrive chunked upload: 23.7 % uploaded (13369344)
+1771.149 (5) Googledrive chunked upload: 25.5 % uploaded (14417920)
+1772.424 (5) Googledrive chunked upload: 27.4 % uploaded (15466496)
+1773.680 (5) Googledrive chunked upload: 29.2 % uploaded (16515072)
+1774.996 (5) Googledrive chunked upload: 31.1 % uploaded (17563648)
+1776.437 (5) Googledrive chunked upload: 32.9 % uploaded (18612224)
+1776.920 (5) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1776.922 (5) An error condition has occurred for the first time during this job
+1777.241 (5) Google Drive: quota usage: used=6.5 MB, total=15360 MB, available=15353.5 MB
+1777.243 (5) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+1777.360 (5) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: upload already began; attempting to resume from byte 18612223
+1778.705 (5) Google Drive: ERROR: upload error (Google_Service_Exception): Error calling PUT https://www.googleapis.com/upload/drive/v2/files?uploadType=resumable&upload_id=AEnB2UrKe48vk88Df-EPUhDvOtMRIPj9wNBQHn-DD8Jp1X2MUbiIoZx3QXb3wCdeJiF4s8Ic87XFwUGCmjs4wNuz4iwADNJfFDh8gJ_LPa2NFbK3aenNuPc: (503)  (line: 110, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\Http\REST.php)
+1779.066 (5) Googledrive chunked upload: 34.8 % uploaded (19660800)
+1839.071 (5) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1839.075 (5) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1839.077 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+1839.079 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+1839.080 (5) Number of backup sets in history: 2; groups (db): 1
+1839.081 (5) Examining (for databases) backup set with group_id=0, nonce=a4cccf4bde63, datestamp=1560363494 (Jun 12 2019 18:18:14)
+1839.081 (5) Number of backup sets in history: 2; groups (db): 1
+1839.083 (5) Examining (for databases) backup set with group_id=0, nonce=a4cccf4bde63, datestamp=1560363494 (Jun 12 2019 18:18:14)
+1839.083 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1839.084 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1839.085 (5) Examining (for databases) backup set with group_id=0, nonce=1654041fea90, datestamp=1560362759 (Jun 12 2019 18:05:59)
+1839.085 (5) This backup set is the backup set just made, so will not be deleted.
+1839.085 (5) Number of backup sets in history: 2; groups (files): 1
+1839.086 (5) Examining (for databases) backup set with group_id=0, nonce=1654041fea90, datestamp=1560362759 (Jun 12 2019 18:05:59)
+1839.086 (5) This backup set is the backup set just made, so will not be deleted.
+1839.086 (5) Number of backup sets in history: 2; groups (files): 1
+1839.086 (5) Examining (for files) backup set with nonce=a4cccf4bde63, datestamp=1560363494 (Jun 12 2019 18:18:14)
+1839.086 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1839.087 (5) Examining (for files) backup set with nonce=a4cccf4bde63, datestamp=1560363494 (Jun 12 2019 18:18:14)
+1839.087 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1839.088 (5) Examining (for files) backup set with nonce=1654041fea90, datestamp=1560362759 (Jun 12 2019 18:05:59)
+1839.088 (5) This backup set is the backup set just made, so will not be deleted.
+1839.088 (5) Examining (for files) backup set with nonce=1654041fea90, datestamp=1560362759 (Jun 12 2019 18:05:59)
+1839.088 (5) This backup set is the backup set just made, so will not be deleted.
+1839.089 (5) This backup set is the backup set just made, so will not be deleted.
+1839.090 (5) This backup set is the backup set just made, so will not be deleted.
+1839.090 (5) This backup set is the backup set just made, so will not be deleted.
+1839.090 (5) This backup set is the backup set just made, so will not be deleted.
+1839.090 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1839.091 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1839.092 (5) This backup set is the backup set just made, so will not be deleted.
+1839.093 (5) This backup set is the backup set just made, so will not be deleted.
+1839.093 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1839.094 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1839.096 (5) Resume backup (1654041fea90, 5): finish run
+1839.097 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1839.099 (5) Resume backup (1654041fea90, 5): finish run
+1839.100 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1839.101 (5) No email will/can be sent - the user has not configured an email address.
+1839.102 (5) The backup has not finished; a resumption is scheduled
+1839.104 (5) No email will/can be sent - the user has not configured an email address.
+1839.106 (5) The backup has not finished; a resumption is scheduled
+2061.485 (6) Opened log file at time: Wed, 12 Jun 2019 18:40:20 +0000 on http://localhost/mysite
+2061.486 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.1 PHP: 7.2.18 (apache2handler, Windows NT DESKTOP-JTVBDRC 10.0 build 17134 (Windows 10) AMD64) MySQL: 5.7.26 WPLANG: en_US Server: Apache/2.4.39 (Win64) PHP/7.2.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.3M | 2M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+2061.488 (6) Free space on disk containing Updraft's temporary directory: 27172.9 MB
+2061.492 (6) Backup run: resumption=6, nonce=1654041fea90, file_nonce=1654041fea90 begun at=1560362759 (2061s ago), job type=backup, previous check-in=75s
+2061.495 (6) Scheduling a resumption (7) after 300 seconds (1560365120) in case this run gets aborted
+2061.498 (6) Checking if we have a zip executable available
+2061.500 (6) Creation of backups of directories: already finished
+2061.502 (6) Saving backup status to database (elements: 8)
+2061.506 (6) Database dump (WordPress DB): Creation was completed already
+2061.511 (6) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2061.512 (6) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-themes.zip: themes: This file has already been successfully uploaded
+2061.514 (6) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2061.515 (6) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-others.zip: others: This file has already been successfully uploaded
+2061.516 (6) backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-db.gz: db: This file has already been successfully uploaded
+2061.517 (6) Saving backup history. Total backup size: Unknown
+2061.521 (6) Requesting upload of the files that have not yet been successfully uploaded (2)
+2061.524 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2061.526 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d67d4aa0064a3f2c7d586d8154e3a841)
+2062.542 (6) Google Drive: quota usage: used=12.3 MB, total=15360 MB, available=15347.7 MB
+2062.544 (6) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+2062.691 (6) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-plugins.zip: upload already began; attempting to resume from byte 26214399
+2122.701 (6) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+2122.705 (6) An error condition has occurred for the first time during this job
+2123.106 (6) Google Drive: quota usage: used=0 MB, total=15360 MB, available=15360 MB
+2123.108 (6) Google Drive: backup_2019-06-12-1805_Christian_Science_Committee_on_P_1654041fea90-uploads.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+2183.581 (6) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\wamp64\www\mySite\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+2183.585 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+2183.587 (6) Number of backup sets in history: 1; groups (db): 1
+2183.589 (6) Examining (for databases) backup set with group_id=0, nonce=a4cccf4bde63, datestamp=1560363494 (Jun 12 2019 18:18:14)
+2183.591 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2183.593 (6) Number of backup sets in history: 1; groups (files): 1
+2183.594 (6) Examining (for files) backup set with nonce=a4cccf4bde63, datestamp=1560363494 (Jun 12 2019 18:18:14)
+2183.594 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2183.595 (6) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2183.599 (6) Resume backup (1654041fea90, 6): finish run
+2183.602 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2183.605 (6) No email will/can be sent - the user has not configured an email address.
+2183.606 (6) The backup has not finished; a resumption is scheduled

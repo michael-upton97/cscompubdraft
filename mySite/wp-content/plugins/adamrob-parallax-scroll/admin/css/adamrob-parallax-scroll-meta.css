@@ -1,0 +1,43 @@
+a.nav-tab {
+    margin-bottom: -9px;
+}
+
+
+#parallax_scroll_meta{
+    overflow: hidden;
+    padding-bottom: 1em;
+}
+ 
+#parallax_scroll_meta p{
+    clear: both;
+}
+ 
+.meta-row-title{
+    display: block;
+    float: left;
+    width: 200px;
+    font-weight: bold;
+}
+
+.meta-row-description{
+    display: block;
+    float: left;
+    padding-left: 200px;
+}
+
+.meta-row-field-block{
+    display: block;
+    overflow: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ 
+.meta-row-content{
+    float: left;
+    padding-bottom: 1em;
+}
+ 
+.meta-row-content label{
+    display: block;
+    line-height: 1.75em;
+}

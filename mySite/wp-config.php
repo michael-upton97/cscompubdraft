@@ -19,6 +19,7 @@
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
+
 /*
 define( 'DB_NAME', 'remote-db');
 define( 'DB_USER', 'root');
@@ -29,6 +30,7 @@ define( 'DB_NAME', 'wordpress');
 define( 'DB_USER', 'wordpress');
 define( 'DB_PASSWORD', 'wordpress');
 define( 'DB_HOST', 'copsocalmysite_db_1');
+
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8');
@@ -89,6 +91,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once( ABSPATH . 'wp-settings.php' );
 
 define( 'WPMS_ON', true );
-define( 'WPMS_SMTP_PASS', 'H0neyB@dger' );
-/** my new line */
+
+define( 'WPMS_SMTP_PASS', 'g927Sf6AyJBax5B' );
 ?>

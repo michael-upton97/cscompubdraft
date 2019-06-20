@@ -3059,6 +3059,7 @@ iframe {
 	padding: 0 12px;
 	font-size: 10px;
 	min-width: auto !important;
+	display: none;
 }
 
 .page-title-section {

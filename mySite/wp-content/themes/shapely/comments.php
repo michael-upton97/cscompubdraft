@@ -21,34 +21,10 @@ if ( post_password_required() ) {
 }
 ?>
 
-<?php
-
-   /**
-    *  following code was added to restrict comments for anyone but administrators
-    *  if you want to re-add that permission please delete this whole block (17 lines of code, 24 - 47)
-    *
-    */
-
-	if( !(current_user_can( 'administrator') && has_category( 'public')) &&
-      !(current_user_can( 'administrator') && has_category( 'members')) &&
-      !(current_user_can( 'administrator') && has_category( 'acom')) &&
-      !(current_user_can( 'acom') && has_category( 'acom')) ){
-         if (comments_open()) {
-            $wpdb->query($wpdb->prepare("UPDATE `draft-db`.wp_posts SET comment_status = 'closed' WHERE id = $id", $id));
-            header("Refresh:0");
-         }
-      }
-   else {
-      if( !comments_open() ) {
-         $wpdb->query($wpdb->prepare("UPDATE `draft-db`.wp_posts SET comment_status = 'open' WHERE id = $id", $id));
-         header("Refresh:0");
-      }
-   }
-?>
 
 
 <div id="comments" class="comments-area comments  nolist">
-	<?php if ( have_comments() ) : ?>
+	<?php if ( have_comments() && (current_user_can( 'administrator') || current_user_can( 'member') || current_user_can( 'acom')) ): ?>
 		<h5 class="comments-title">
 			<?php
 			$comments_number = get_comments_number();
@@ -116,7 +92,7 @@ if ( post_password_required() ) {
       
       
 
-	endif; // Check for have_comments().
+	endif; // Check for have_comments() and users.
 
 
 
@@ -129,11 +105,11 @@ if ( post_password_required() ) {
 	endif;
    
   
-
+	if ( current_user_can( 'administrator') ) :
 	/* comment form */
 	$comments_args = shapely_custom_comment_form();
 	comment_form( $comments_args );
-	?>
+	endif	?>
 
 
 

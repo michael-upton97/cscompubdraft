@@ -876,7 +876,7 @@
   color: #000000;
   font-family: Verdana, Geneva, sans-serif;
   font-weight: 0;
-  font-size: 11px;
+  font-size: 12px;
   font-style: 0;
   letter-spacing: inherit;
 }
@@ -893,21 +893,21 @@
 #quadmenu.quadmenu-default_theme .quadmenu-navbar-nav > li.quadmenu-item > a,
 #quadmenu.quadmenu-default_theme .quadmenu-navbar-nav > li.quadmenu-item > form {
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 0;
   font-style: 0;
   letter-spacing: inherit;
 }
 #quadmenu.quadmenu-default_theme .quadmenu-navbar-nav > li.quadmenu-item > form.quadmenu-has-icon:not(.quadmenu-item-type-icon) > a > .quadmenu-item-content {
-  padding-left: 41px;
+  padding-left: 42px;
 }
 #quadmenu.quadmenu-default_theme .quadmenu-navbar-nav .quadmenu-dropdown-menu .quadmenu-title {
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
 }
 #quadmenu.quadmenu-default_theme .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item > a {
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 0;
   font-style: 0;
   letter-spacing: inherit;
@@ -921,7 +921,7 @@
 #quadmenu.quadmenu-default_theme .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item > a > .quadmenu-item-content .quadmenu-product-price .woocommerce-Price-amount amount,
 #quadmenu.quadmenu-default_theme .quadmenu-navbar-nav .quadmenu-dropdown-menu li.quadmenu-item > a > .quadmenu-item-content .quadmenu-product-rating .woocommerce-Price-amount amount {
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 0;
   font-style: 0;
   letter-spacing: inherit;
@@ -1110,7 +1110,7 @@
 #quadmenu.quadmenu-default_theme .quadmenu-navbar-nav > li.quadmenu-item-type-search > form ::placeholder {
   color: #000000;
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 0;
   font-style: 0;
   text-transform: uppercase;
@@ -1119,7 +1119,7 @@
 #quadmenu.quadmenu-default_theme .quadmenu-navbar-nav > li.quadmenu-item-type-search > form input {
   color: #000000;
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 0;
   font-style: 0;
   text-transform: uppercase;
@@ -1131,7 +1131,7 @@
 #quadmenu.quadmenu-default_theme .quadmenu-navbar-nav > li.quadmenu-item-type-login > .quadmenu-dropdown-menu .quadmenu-bottom-text,
 #quadmenu.quadmenu-default_theme .quadmenu-navbar-nav > li.quadmenu-item-type-cart > .quadmenu-dropdown-menu .quadmenu-bottom-text {
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 0;
   font-style: 0;
   text-transform: uppercase;
@@ -1152,7 +1152,7 @@
 #quadmenu.quadmenu-default_theme .quadmenu-navbar-nav > li.quadmenu-item-type-cart.quadmenu-cart-empty > .quadmenu-dropdown-menu .widget_shopping_cart,
 #quadmenu.quadmenu-default_theme .quadmenu-navbar-nav > li.quadmenu-item-type-cart.quadmenu-cart-empty > .quadmenu-dropdown-menu .widget_shopping_cart li {
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 0;
   font-style: 0;
   text-transform: uppercase;
@@ -1213,7 +1213,7 @@
 #quadmenu.quadmenu-default_theme .quadmenu-navbar-nav .quadmenu-dropdown-menu select,
 #quadmenu.quadmenu-default_theme .quadmenu-navbar-nav .quadmenu-dropdown-menu .button {
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 0;
   font-style: 0;
   text-transform: none;

@@ -376,13 +376,13 @@
 #quadmenu.quadmenu-default_theme .widget a,
 #quadmenu.quadmenu-default_theme .widget ul li {
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 0;
   font-style: 0;
   letter-spacing: inherit;
 }
 #quadmenu.quadmenu-default_theme .widget.widget_rss span.rss-date {
-  font-size: 9px;
+  font-size: 10px;
 }
 #quadmenu.quadmenu-default_theme .widget.widget_products li > a,
 #quadmenu.quadmenu-default_theme .widget.widget_recent_reviews li > a,
@@ -398,7 +398,7 @@
 #quadmenu.quadmenu-default_theme .widget.widget_featured_posts li > a > span.product-title {
   text-transform: none;
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 0;
   font-style: 0;
   letter-spacing: inherit;
@@ -415,7 +415,7 @@
 #quadmenu.quadmenu-default_theme .widget.widget_recently_viewed_products li > a > .date,
 #quadmenu.quadmenu-default_theme .widget.widget_top_rated_products li > a > .date,
 #quadmenu.quadmenu-default_theme .widget.widget_featured_posts li > a > .date {
-  font-size: 11px;
+  font-size: 12px;
 }
 #quadmenu.quadmenu-default_theme .widget.widget_products li span.reviewer,
 #quadmenu.quadmenu-default_theme .widget.widget_recent_reviews li span.reviewer,
@@ -427,10 +427,10 @@
 #quadmenu.quadmenu-default_theme .widget.widget_shopping_cart li span.amount,
 #quadmenu.quadmenu-default_theme .widget.widget_recently_viewed_products li span.amount,
 #quadmenu.quadmenu-default_theme .widget.widget_top_rated_products li span.amount {
-  font-size: 9px;
+  font-size: 10px;
 }
 #quadmenu.quadmenu-default_theme .widget.widget_price_filter .price_slider_amount {
-  font-size: 9px;
+  font-size: 10px;
 }
 #quadmenu.quadmenu-default_theme .widget ul {
   list-style: none;
@@ -473,7 +473,7 @@
 }
 #quadmenu.quadmenu-default_theme .widget.widget_shopping_cart .total {
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 0;
   font-style: 0;
   text-transform: uppercase;

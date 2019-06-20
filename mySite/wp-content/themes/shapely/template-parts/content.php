@@ -117,6 +117,10 @@ $post_category = get_theme_mod( 'post_category', true );
 		$next = str_replace( '&raquo;', '<span class="fa fa-angle-right"></span></div>', $next );
 		$next = str_replace( '<a', '<div class="wrapper"><a', $next );
 		?>
+		
+		<!-- next segment added to remove next and previous post links for lower level users-->
+
+		<!-- added --><?php if( current_user_can( 'administrator') || current_user_can( 'acom')): ?>
 		<div class="shapely-next-prev row">
 			<div class="col-md-6 text-left">
 				<?php echo wp_kses_post( $prev ); ?>
@@ -125,6 +129,7 @@ $post_category = get_theme_mod( 'post_category', true );
 				<?php echo wp_kses_post( $next ); ?>
 			</div>
 		</div>
+		<!-- added --><?php endif; ?>
 
 		<?php
 		if ( $post_author && ! $left_side ) :

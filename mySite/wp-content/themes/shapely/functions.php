@@ -373,6 +373,13 @@ add_action( 'wp_enqueue_scripts', 'shapely_scripts' );
  * 
  */
 
+function email_disclaimer_function() { 
+	$i = '<p><strong>Disclaimer:</strong> We do not share your email with anyone, including other users or 3rd parties. </p>';
+	return $i;
+} 
+
+add_shortcode('email_disclaimer', 'email_disclaimer_function');
+
 
 /**
  * Custom template tags for this theme.

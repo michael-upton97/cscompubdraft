@@ -1,0 +1,33 @@
+
+From when you left:
+
+1. Changed .htaccess file (see commented out lines). 
+   - reverse the changes to get back to your wamp config.
+2. Set up local docker MySQL and restored your DB into it.
+3. Changed all http://localhost/mySite references in MySQL table wp_options to http://localhost:8080
+   - change them back (or restore an old DB) to undo for wamp setup.
+   - did this in both the docker mysql and the remote mysql at weston.
+   - created a new connection in wp-config.php to your docker container MySQL.  All you need to do is
+     comment out the new block and uncomment the old block to re-enable the remote-db connection.
+4. Created new entries in wp-config.php for the docker mysql.
+
+Its all working fine, but what you should do now is:
+
+1. If you are happy with docker (you still may need to change some hard-coded localhost/MySite 
+   references in PHP) then uninstall the WAMP app.  Make sure the WAMP Apache server and WAMP MySQL 
+   services are uninstalled from your computer, and remove all PHP and other apps you can find 
+   that were bundled with WAMP if they dont get uninstalled.  Basically uninstall, then delete 
+   the WAMP folder.
+   My advice is not to try to run both, you'll just get confused.  Commit to one or the other.
+2. Uninstall Windows IIS and the non-WAMP MySQL windows services. You could uninstall MySQL but
+   disable IIS as IIS is hard to remove - (don't set to manual  manual 'cause windows occasionally 
+   starts manual services -if it feels like it or the stars are aligned).
+3. You can then remove the port forwarding in each of the containers.  What you would do is 
+   forward port 80 host to port 80 container for the wordpress container, and 3306 to 3306 for 
+   the MySQL container, then redeploy. After you do that,
+   - in wp-options table in MySQL remove the :8080 bits (filter for 8080 in workbench)
+   - in MySQL Workbench change the port to 3306.
+   Then you will be able to access the site using http://localhost/
+
+   Then do the same to your laptop ---->
+   I have an idea on how we could make the db more portable between dockers.

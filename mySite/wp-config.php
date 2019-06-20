@@ -19,25 +19,24 @@
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define( 'DB_NAME', 'local-db' );
 
-/** MySQL database username */
-define( 'DB_USER', 'root' );
+/*
+define( 'DB_NAME', 'remote-db');
+define( 'DB_USER', 'root');
+define( 'DB_PASSWORD', 'toor');
+define( 'DB_HOST', 'csdb.the-uptons.com:3316');
+*/
+define( 'DB_NAME', 'wordpress');
+define( 'DB_USER', 'wordpress');
+define( 'DB_PASSWORD', 'wordpress');
+define( 'DB_HOST', 'copsocalmysite_db_1');
 
-/** MySQL database password */
-define( 'DB_PASSWORD', '' );
-
-/** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
-
-/** define('DB_PORT', '3316'); */
 
 /** Database Charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
+define( 'DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
-define( 'DB_COLLATE', '' );
+define( 'DB_COLLATE', '');
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -92,5 +91,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once( ABSPATH . 'wp-settings.php' );
 
 define( 'WPMS_ON', true );
+
 define( 'WPMS_SMTP_PASS', 'g927Sf6AyJBax5B' );
 ?>

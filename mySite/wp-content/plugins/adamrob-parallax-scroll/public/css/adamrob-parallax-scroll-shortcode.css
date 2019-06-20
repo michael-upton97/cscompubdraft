@@ -1,0 +1,61 @@
+/**
+ * CSS for public facing pages
+ *
+ * @link       http://www.adamrob.co.uk
+ * @since      3.0.0
+ *
+ * @package    Adamrob_Parallax_Scroll
+ * @subpackage Adamrob_Parallax_Scroll/public/css
+ */
+
+
+/**
+ * ERROR ALERT CSS
+ */
+
+.fade.in {
+    opacity: 1;
+}
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.alert-dismissable, .alert-dismissible {
+    padding-right: 35px;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+
+a.close:hover {
+    color: black !important;
+}
+
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.alert-dismissable .close, .alert-dismissible .close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    color: inherit;
+}
+a.close {
+    text-decoration: none !important;
+    font-size: 18px !important;
+    line-height: 1.2;
+}

@@ -40,7 +40,7 @@ class Inactive_Logout_Helpers {
 	/**
 	 * Define constant if not already set.
 	 *
-	 * @param  string      $name  Constant name.
+	 * @param  string $name Constant name.
 	 * @param  string|bool $value Constant value.
 	 *
 	 * @since   2.0.0
@@ -99,17 +99,15 @@ class Inactive_Logout_Helpers {
 	 */
 	public function ina_get_all_pages_posts() {
 		$result = array();
-		$pages  = get_posts(
-			array(
-				'order'          => 'ASC',
-				'posts_per_page' => - 1,
-				'post_type'      => array(
-					'post',
-					'page',
-				),
-				'post_status'    => 'publish',
-			)
-		);
+		$pages  = get_posts( array(
+			'order'          => 'ASC',
+			'posts_per_page' => - 1,
+			'post_type'      => array(
+				'post',
+				'page',
+			),
+			'post_status'    => 'publish',
+		) );
 
 		if ( ! empty( $pages ) ) {
 			foreach ( $pages as $page ) {
@@ -194,4 +192,42 @@ class Inactive_Logout_Helpers {
 
 		return $result;
 	}
+
+	public function show_plugin_like() {
+		if ( ! in_array( 'inactive-logout-addon/inactive-logout-addon.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+			?>
+            <div class="ina-admin-notice ina-admin-notice-warning">
+                <h3><?php esc_html_e( 'Like this plugin ?', 'inactive-logout' ); ?></h3>
+                <p>
+					<?php
+					// translators: anchor tag.
+					printf( esc_html__( 'Please consider giving a %s if you found this useful at wordpress.org.', 'inactive-logout' ), '<a href="https://wordpress.org/support/plugin/inactive-logout/reviews/#new-post">5 star thumbs up</a>' );
+					?>
+                </p>
+            </div>
+			<?php
+		}
+	}
+
+	public function show_plugin_referrals() {
+		if ( ! in_array( 'inactive-logout-addon/inactive-logout-addon.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+			?>
+            <div id="message" class="notice notice-warning">
+                <h4><?php esc_html_e( 'Do you know what your users are doing when logged in to your WordPress site?', 'inactive-logout' ); ?></h4>
+                <p>
+					<?php
+					// translators: anchor tag.
+					printf( esc_html__( 'We recommend you to install the %s plugin to keep a log of what users do when they are logged in to your WordPress website.', 'inactive-logout' ), '<a href="https://en-gb.wordpress.org/plugins/wp-security-audit-log/">WP Security Audit Log</a>' );
+					?>
+                </p>
+            </div>
+			<?php
+		}
+	}
 }
+
+function ina_helpers() {
+	return Inactive_Logout_Helpers::instance();
+}
+
+ina_helpers();

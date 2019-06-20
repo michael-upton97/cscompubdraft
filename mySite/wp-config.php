@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'draft-db' );
+define( 'DB_NAME', 'local-db' );
 
 /** MySQL database username */
 define( 'DB_USER', 'root' );
@@ -92,5 +92,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once( ABSPATH . 'wp-settings.php' );
 
 define( 'WPMS_ON', true );
-define( 'WPMS_SMTP_PASS', 'H0neyB@dger' );
+define( 'WPMS_SMTP_PASS', 'g927Sf6AyJBax5B' );
 ?>

@@ -4,7 +4,7 @@ Tags: logout, inactive user, idle, idle logout, idle user, auto logout, autologo
 Donate link: https://deepenbajracharya.com.np/donate/
 Requires at least: 4.6.0
 Tested up to: 5.2
-Stable tag: 1.8.4
+Stable tag: 1.9.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,9 +12,11 @@ Logs out users within defined time when inactive. Modify to show only wake up me
 
 == Description ==
 
-Make your WP account secure from snoopers, friends to protect your data by assuring auto log out system within a certain defined time. This will help you keep safe from any users using same machine to access your account in case you are away and forgot to logout and kept your site logged open.
+Protect your WordPress users' sessions from shoulder surfers and snoopers!
 
-Simple but works efficiently. Nothing much to explain on plugin use. As its simple to use. You can find inactive settings under settings menu in admin dashboard.
+Use the Inactive Logout plugin to automatically terminate idle user sessions, thus protecting the site if the users leave unattended sessions.
+
+The plugin is very easy to configure and use. Once you install and activate the plugin simply configure the idle timeout from the plugin settings. So now any unattended idle WordPress user sessions will be terminated automatically. You can also display a custom message to idle user sessions, alerting them that the session is about to end.
 
 Please refer to FAQ section if you have trouble activating plugin from version 1.6.0
 
@@ -33,7 +35,8 @@ Please refer to FAQ section if you have trouble activating plugin from version 1
 9. Simple to use
 10. Multi browser tab support: Means that logout will not happen even if the user has multiple browser tabs opened and is active in certain browser tab.
 11. Multisite Support: Override all sites with one setting.
-12. Auto browser close logout after 2 minute of active session. ( in beta download from [here](https://deepenbajracharya.com.np/plugins/inactive-logout-182-bundled.zip "Download Inactive Logout") )
+12. Auto browser close logout after 2 minute of active session. **Coming Soon**
+13. Override Multiple Login priority **Coming Soon**
 
 In order to style dialog boxes you can use css classes. Also, works in **frontend view as well**.
 
@@ -50,7 +53,7 @@ Lemme know if there are any bugs and problems or enhancements you want to make..
 
 **See the [Inactive Logout](https://deepenbajracharya.com.np/wp-inactive-logout/ "Inactive Logout") homepage for further information. Contact Developer for those who need to write plugins.**
 
-**There's a [GIT repository](https://github.com/techies23/Inactive-Logout.git "Github Inactive Repository"), if you want to contribute a patch. Please check issues. Pull requests are welcomed. Development is done in Github !!!** 
+**There's a [GIT repository](https://github.com/techies23/Inactive-Logout.git "Github Inactive Repository") too if you want to contribute a patch. Please check issues. Pull requests are welcomed.**
 
 **Please consider giving a [5 star thumbs up](https://wordpress.org/support/plugin/inactive-logout/reviews/#new-post "5 star thumbs up") if you found this useful.**
 
@@ -62,7 +65,7 @@ Upload the plugin to your blog, Activate it, Load...and You're done!
 
 = Auto logut when browser close version ( in beta ) =
 
-If you need auto logout when browser tab is closed after 2 minutes - Download from [here](https://deepenbajracharya.com.np/plugins/inactive-logout-182-bundled.zip "Plugin version 1.5."). This is still in beta as users are facing trouble. Please report on the issue if found any.
+This feature has been moved to PRO version of the plugin.
 
 = Plugin Conflicts =
 
@@ -81,6 +84,16 @@ Slim Stat Analytics: Users using "Slimstat Analytics" plugin version upto 4.6.2 
 4. Multi User Role Screen
 
 == Changelog ==
+
+= 1.9.0 =
+* Changed: Javascript methods changed to modular.
+* Added: Pro Tab added in settings page
+* Added: Hook priorities for ending conflicts
+* Changed: Helper function now into singleton
+* Added: SASS compilation
+* Removed: INA_VERSION constant
+* Bug Fix: Multi-Role fixes
+* Bug Fixes
 
 = 1.8.0/1.8.2 =
 * Added: Auto logout when browser is closed - follow link in the description to download beta plugin.

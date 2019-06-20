@@ -18,8 +18,6 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 final class Inactive_Logout_Main {
 
-	const INA_VERSION = '1.8.4';
-
 	/**
 	 * Directory of plugin.
 	 *
@@ -83,6 +81,9 @@ final class Inactive_Logout_Main {
 
 		//Load Finally
 		add_action( 'wp_enqueue_scripts', array( $this, 'load_scripts' ), 9999 );
+
+		add_filter( 'plugin_action_links', array( $this, 'action_link' ), 10, 2 );
+
 		$this->ina_plugins_loaded();
 	}
 
@@ -183,12 +184,10 @@ final class Inactive_Logout_Main {
 	 * Define Constant Values
 	 */
 	public function ina_define_them_constants() {
-		$ina_helpers = Inactive_Logout_Helpers::instance();
-		$ina_helpers->ina_define( 'INACTIVE_LOGOUT_VERSION', self::INA_VERSION );
-		$ina_helpers->ina_define( 'INACTIVE_LOGOUT_SLUG', 'inactive-logout' );
-		$ina_helpers->ina_define( 'INACTIVE_LOGOUT_VIEWS', $this->plugin_path . 'views' );
-		$ina_helpers->ina_define( 'INACTIVE_LOGOUT_ASSETS_URL', $this->plugin_url . 'assets/' );
-		$ina_helpers->ina_define( 'INACTIVE_LOGOUT_VENDOR_URL', $this->plugin_url . 'vendor/' );
+		ina_helpers()->ina_define( 'INACTIVE_LOGOUT_SLUG', 'inactive-logout' );
+		ina_helpers()->ina_define( 'INACTIVE_LOGOUT_VIEWS', $this->plugin_path . 'views' );
+		ina_helpers()->ina_define( 'INACTIVE_LOGOUT_ASSETS_URL', $this->plugin_url . 'assets/' );
+		ina_helpers()->ina_define( 'INACTIVE_LOGOUT_VENDOR_URL', $this->plugin_url . 'assets/vendor/' );
 	}
 
 	/**
@@ -197,6 +196,7 @@ final class Inactive_Logout_Main {
 	protected function ina_load_dependencies() {
 		// Loading Helpers.
 		require_once $this->plugin_path . 'src/class-inactive-logout-helpers.php';
+		require_once $this->plugin_path . 'src/class-inactive-logout-pointers.php';
 
 		// Loading Admin Views.
 		require_once $this->plugin_path . 'src/class-inactive-logout-admin-views.php';
@@ -208,8 +208,7 @@ final class Inactive_Logout_Main {
 		// @added from 1.6.0.
 		$ina_multiuser_timeout_enabled = get_option( '__ina_enable_timeout_multiusers' );
 		if ( ! empty( $ina_multiuser_timeout_enabled ) ) {
-			$helper                   = Inactive_Logout_Helpers::instance();
-			$disable_concurrent_login = $helper->ina_check_user_role_concurrent_login();
+			$disable_concurrent_login = ina_helpers()->ina_check_user_role_concurrent_login();
 			if ( $disable_concurrent_login ) {
 				require_once $this->plugin_path . 'src/class-inactive-concurrent-login-functions.php';
 			}
@@ -264,8 +263,7 @@ final class Inactive_Logout_Main {
 			$ina_meta_data['ina_disable_countdown']    = ( isset( $idle_disable_countdown ) && 1 === intval( $idle_disable_countdown ) ) ? $idle_disable_countdown : false;
 			$ina_meta_data['ina_warn_message_enabled'] = ( isset( $ina_warn_message_enabled ) && 1 === intval( $ina_warn_message_enabled ) ) ? $ina_warn_message_enabled : false;
 
-			$helper            = Inactive_Logout_Helpers::instance();
-			$disable_timeoutjs = $helper->ina_check_user_role();
+			$disable_timeoutjs = ina_helpers()->ina_check_user_role();
 			if ( ! $disable_timeoutjs ) {
 				wp_enqueue_script( 'ina-logout-js', INACTIVE_LOGOUT_ASSETS_URL . 'js/scripts.min.js', array( 'jquery' ), time(), true );
 				wp_localize_script( 'ina-logout-js', 'ina_meta_data', $ina_meta_data );
@@ -276,7 +274,7 @@ final class Inactive_Logout_Main {
 				) );
 			}
 
-			wp_register_script( 'ina-logout-inactive-logoutonly-js', INACTIVE_LOGOUT_ASSETS_URL . 'js/scripts-other.min.js', array( 'jquery', 'wp-color-picker' ), time(), true );
+			wp_register_script( 'ina-logout-inactive-logoutonly-js', INACTIVE_LOGOUT_ASSETS_URL . 'js/scripts-helper.min.js', array( 'jquery', 'wp-color-picker' ), time(), true );
 			wp_register_script( 'ina-logout-inactive-select-js', INACTIVE_LOGOUT_VENDOR_URL . 'select2/js/select2.min.js', array( 'jquery' ), time(), true );
 
 			wp_register_style( 'ina-logout-inactive-select', INACTIVE_LOGOUT_VENDOR_URL . 'select2/css/select2.min.css', false, time() );
@@ -296,5 +294,22 @@ final class Inactive_Logout_Main {
 		$domain = 'inactive-logout';
 		apply_filters( 'plugin_locale', get_locale(), $domain );
 		load_plugin_textdomain( $domain, false, $this->plugin_dir . 'lang/' );
+	}
+
+
+	function action_link( $actions, $plugin_file ) {
+		static $plugin;
+
+		if ( ! isset( $plugin ) ) {
+			$plugin = INA_PLUGIN_ABS_NAME;
+		}
+
+		if ( $plugin == $plugin_file ) {
+			$settings  = array( 'settings' => '<a href="options-general.php?page=inactive-logout">' . __( 'Configure', 'inactive-logout' ) . '</a>' );
+
+			$actions = array_merge( $settings, $actions );
+		}
+
+		return $actions;
 	}
 }

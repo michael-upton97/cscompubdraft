@@ -1,0 +1,61 @@
+0000.003 (0) Opened log file at time: Fri, 28 Jun 2019 20:46:58 +0000 on http://localhost/mysite
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.2 PHP: 7.2.18 (apache2handler, Windows NT MICHAELUPTON-LA 10.0 build 17134 (Windows 10) AMD64) MySQL: 5.7.26 WPLANG: en_US Server: Apache/2.4.39 (Win64) PHP/7.2.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 10.4M | 4M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 690543.6 MB
+0000.017 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: twicedaily)
+0000.019 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.023 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1561483325, seconds_ago=271493)
+0000.026 (0) Set semaphore last lock (f) time to 2019-06-28 20:46:58
+0000.029 (0) Semaphore lock (f) complete
+0000.038 (0) Backup run: resumption=0, nonce=ddb2fd79401a, file_nonce=ddb2fd79401a begun at=1561754818 (0s ago), job type=backup
+0000.041 (0) Scheduling a resumption (1) after 300 seconds (1561755118) in case this run gets aborted
+0000.059 (0) Checking if we have a zip executable available
+0000.067 (0) Creation of backups of directories: beginning
+0000.077 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0006.593 (0) Total entities for the zip file: 1612 directories, 8530 files (0 skipped as non-modified), 136.9 MB
+0006.600 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0007.183 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 100 files added (on-disk size: 267 KB)
+0007.250 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 200 files added (on-disk size: 267 KB)
+0007.308 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 300 files added (on-disk size: 267 KB)
+0007.439 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 400 files added (on-disk size: 267 KB)
+0007.505 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 500 files added (on-disk size: 267 KB)
+0007.508 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7 MB, 8530 files batched, 501 (502) added so far); re-opening (prior size: 267 KB)
+0021.113 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 600 files added (on-disk size: 2244.3 KB)
+0021.157 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 700 files added (on-disk size: 2244.3 KB)
+0021.202 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 800 files added (on-disk size: 2244.3 KB)
+0021.246 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 900 files added (on-disk size: 2244.3 KB)
+0021.289 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 1000 files added (on-disk size: 2244.3 KB)
+0021.292 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.2 MB, 8530 files batched, 501 (1003) added so far); re-opening (prior size: 2244.3 KB)
+0029.458 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 1100 files added (on-disk size: 15975.1 KB)
+0029.511 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 1200 files added (on-disk size: 15975.1 KB)
+0029.553 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 1300 files added (on-disk size: 15975.1 KB)
+0029.596 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 1400 files added (on-disk size: 15975.1 KB)
+0029.638 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 1500 files added (on-disk size: 15975.1 KB)
+0029.641 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.7 MB, 8530 files batched, 501 (1504) added so far); re-opening (prior size: 15975.1 KB)
+0036.224 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 1600 files added (on-disk size: 18566.2 KB)
+0036.274 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 1700 files added (on-disk size: 18566.2 KB)
+0036.375 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 1800 files added (on-disk size: 18566.2 KB)
+0036.468 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 1900 files added (on-disk size: 18566.2 KB)
+0036.561 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 2000 files added (on-disk size: 18566.2 KB)
+0036.566 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.5 MB, 8530 files batched, 501 (2005) added so far); re-opening (prior size: 18566.2 KB)
+0039.668 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 2100 files added (on-disk size: 20013.4 KB)
+0039.741 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 2200 files added (on-disk size: 20013.4 KB)
+0039.961 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 2300 files added (on-disk size: 20013.4 KB)
+0040.009 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 2400 files added (on-disk size: 20013.4 KB)
+0040.054 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 2500 files added (on-disk size: 20013.4 KB)
+0040.059 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.6 MB, 8530 files batched, 501 (2506) added so far); re-opening (prior size: 20013.4 KB)
+0048.272 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 2600 files added (on-disk size: 23040.9 KB)
+0048.370 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 2700 files added (on-disk size: 23040.9 KB)
+0048.448 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 2800 files added (on-disk size: 23040.9 KB)
+0048.533 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 2900 files added (on-disk size: 23040.9 KB)
+0048.633 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 3000 files added (on-disk size: 23040.9 KB)
+0048.639 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.8 MB, 8530 files batched, 501 (3007) added so far); re-opening (prior size: 23040.9 KB)
+0059.969 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 3100 files added (on-disk size: 24136.4 KB)
+0060.220 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 3200 files added (on-disk size: 24136.4 KB)
+0060.440 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 3300 files added (on-disk size: 24136.4 KB)
+0060.622 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 3400 files added (on-disk size: 24136.4 KB)
+0060.710 (0) Zip: backup_2019-06-28-2046_Christian_Science_Committee_on_P_ddb2fd79401a-plugins.zip.tmp: 3500 files added (on-disk size: 24136.4 KB)
+0060.717 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.2 MB, 8530 files batched, 501 (3508) added so far); re-opening (prior size: 24136.4 KB)
+176807.411 (1) Opened log file at time: Sun, 30 Jun 2019 21:53:45 +0000 on http://localhost/mysite
+176808.603 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.2 PHP: 7.2.18 (apache2handler, Windows NT MICHAELUPTON-LA 10.0 build 17134 (Windows 10) AMD64) MySQL: 5.7.26 WPLANG: en_US Server: Apache/2.4.39 (Win64) PHP/7.2.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.2M | 10M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+176808.621 (1) Free space on disk containing Updraft's temporary directory: 657506.9 MB
+176808.625 (1) This backup task (ddb2fd79401a) is either complete or began over 2 days ago: ending (1561931625.5856, 1561754818) (existing jobdata keys: resume_interval, job_type, jobstatus, backup_time, job_time_ms, service, split_every, maxzipbatch, job_file_entities, option_cache, uploaded_lastreset, one_shot, followsups_allowed, backup_database, backup_files, runs_started, current_resumption, binsqldump, dbcreating_substatus, run_times, useful_checkin, warnings, sha1-db0, sha256-db0, uploading_substatus, googledrive-s-d67d4aa0064a3f2c7d586d8154e3a841, uploaded_8ad3a5800337aac4993dcab8ecdbe9d6, uploaded_googledrive-s-d67d4aa0064a3f2c7d586d8154e3a841-8ad3a5800337aac4993dcab8ecdbe9d6, prune, binzip, filecreating_substatus, files_enumerated_at)

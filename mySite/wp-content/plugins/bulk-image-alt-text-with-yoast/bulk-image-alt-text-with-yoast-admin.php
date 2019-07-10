@@ -85,7 +85,10 @@ class bialty_settings
                 "woo_alt_not_empty_both",
                 "woo_alt_not_empty_disable",
                 "custom_alt_text_yes",
-                "custom_alt_text_no"
+                "custom_alt_text_no",
+                "bialty-bigta",
+                "boost-robot",
+                "bialty-mobilook"
             );
             // if alt empty
             $alt_empty = sanitize_text_field( $_POST['alt_empty'] );
@@ -97,9 +100,14 @@ class bialty_settings
             ( isset( $_POST['remove_settings'] ) ? $bialty_options['remove_settings'] = true : ($bialty_options['remove_settings'] = false) );
             // remove settings on plugin deactivation
             // install robots.txt notice
-            ( isset( $_POST['boost-robot'] ) ? $bialty_options['boost-robot'] = true : ($bialty_options['boost-robot'] = false) );
+            $bialty_robots = sanitize_text_field( $_POST['boost-robot'] );
+            $bialty_options['boost-robot'] = ( isset( $_POST['boost-robot'] ) && in_array( $bialty_robots, $alt_safe ) ? $bialty_robots : false );
             // install mobilook notice
-            ( isset( $_POST['bialty-mobilook'] ) ? $bialty_options['bialty-mobilook'] = true : ($bialty_options['bialty-mobilook'] = false) );
+            $bialty_mobilook = sanitize_text_field( $_POST['bialty-mobilook'] );
+            $bialty_options['bialty-mobilook'] = ( isset( $_POST['bialty-mobilook'] ) && in_array( $bialty_mobilook, $alt_safe ) ? $bialty_mobilook : false );
+            // install bigta notice
+            $bialty_bigta = sanitize_text_field( $_POST['bialty-bigta'] );
+            $bialty_options['bialty-bigta'] = ( isset( $_POST['bialty-bigta'] ) && in_array( $bialty_bigta, $alt_safe ) ? $bialty_bigta : false );
             update_option( 'bialty', $bialty_options );
             // update options
             echo  '<div class="notice notice-success is-dismissible"><p><strong>' . esc_html__( 'Settings saved.', 'bialty' ) . '</strong></p></div>' ;
@@ -454,7 +462,7 @@ class bialty_settings
                             <div class="bialty-column col-8">
                                 
                             <label class="bialty-switch bialty-boost-label">
-                                <input type="checkbox" id="boost-robot" name="boost-robot" <?php 
+                                <input type="checkbox" id="boost-robot" name="boost-robot" value="boost-robot" <?php 
             if ( $bialty_options['boost-robot'] ) {
                 echo  'checked="checked"' ;
             }
@@ -498,14 +506,14 @@ class bialty_settings
 
                             <div class="bialty-column col-4">
                                 <span class="bialty-label"><?php 
-            echo  __( 'Mobile-Friendly & responsive design', 'better-robots-txt' ) ;
+            echo  __( 'Mobile-Friendly & responsive design', 'bialty' ) ;
             ?></span>
                             </div>
                             
                             <div class="bialty-column col-8">
                                 
                             <label class="bialty-switch bialty-mobi-label">
-                                <input type="checkbox" id="bialty-mobilook" name="bialty-mobilook" <?php 
+                                <input type="checkbox" id="bialty-mobilook" name="bialty-mobilook" value="bialty-mobilook" <?php 
             if ( $bialty_options['bialty-mobilook'] ) {
                 echo  'checked="checked"' ;
             }
@@ -514,7 +522,7 @@ class bialty_settings
                             </label>
 
                                 &nbsp; <span><?php 
-            echo  __( 'Get dynamic mobile previews of your pages/posts/products + Facebook debugger', 'better-robots-txt' ) ;
+            echo  __( 'Get dynamic mobile previews of your pages/posts/products + Facebook debugger', 'bialty' ) ;
             ?></span>
                                 
                                 <div class="bialty-mobi" <?php 
@@ -528,7 +536,7 @@ class bialty_settings
             ?>>
 
                                     <div class="bialty-alert bialty-success" style="margin-top: 10px;"><?php 
-            echo  sprintf( wp_kses( __( 'Click <a href="%s" target="_blank">HERE</a> to Install <a href="%2s" target="_blank">Mobilook</a> and test your website on Dualscreen format (Galaxy fold)', 'better-robots-txt' ), array(
+            echo  sprintf( wp_kses( __( 'Click <a href="%s" target="_blank">HERE</a> to Install <a href="%2s" target="_blank">Mobilook</a> and test your website on Dualscreen format (Galaxy fold)', 'bialty' ), array(
                 'a' => array(
                 'href'   => array(),
                 'target' => array(),
@@ -544,6 +552,57 @@ class bialty_settings
                             </div>
                             
                         </div>
+
+                        <div class="bialty-row">
+
+                            <div class="bialty-column col-4">
+                                <span class="bialty-label"><?php 
+            echo  __( 'Boost your image title attribute', 'better-robots-txt' ) ;
+            ?></span>
+                            </div>
+
+                            <div class="bialty-column col-8">
+
+                            <label class="bialty-switch bialty-bigta-label">
+                                <input type="checkbox" id="bialty-bigta" name="bialty-bigta" value="bialty-bigta" <?php 
+            if ( $bialty_options['bialty-bigta'] ) {
+                echo  'checked="checked"' ;
+            }
+            ?> />
+                                <span class="bialty-slider bialty-round"></span>
+                            </label>
+
+                            &nbsp; <span><?php 
+            echo  __( 'Optimize all your image title attributes for UX & search engines performance', 'better-robots-txt' ) ;
+            ?></span>
+
+                                <div class="bialty-bigta" <?php 
+            
+            if ( isset( $bialty_options['bialty-bigta'] ) && !empty($bialty_options['bialty-bigta']) ) {
+                echo  'style="display: inline;"' ;
+            } else {
+                echo  'style="display: none;"' ;
+            }
+            
+            ?>>
+
+                                    <div class="bialty-alert bialty-success" style="margin-top: 10px;"><?php 
+            echo  sprintf( wp_kses( __( 'Click <a href="%s" target="_blank">HERE</a> to Install <a href="%2s" target="_blank">BIGTA</a> Wordpress plugin & auto-optimize all your image title attributes for FREE', 'better-robots-txt' ), array(
+                'a' => array(
+                'href'   => array(),
+                'target' => array(),
+            ),
+                'a' => array(
+                'href'   => array(),
+                'target' => array(),
+            ),
+            ) ), esc_url( "https://wordpress.org/plugins/bulk-image-title-attribute/" ), esc_url( "https://wordpress.org/plugins/bulk-image-title-attribute/" ) ) ;
+            ?>
+                                    </div>
+                                </div>
+                            </div>
+
+                            </div>
 
                         <p class="submit"><input type="submit" name="update" class="button-primary" value="<?php 
             echo  esc_html__( 'Save Changes', 'bialty' ) ;
@@ -718,8 +777,8 @@ function bialty_post_alt( $post )
     <?php 
 }
 
-add_action( 'save_post', 'save_metadata' );
-function save_metadata( $postid )
+add_action( 'save_post', 'bialty_metadata' );
+function bialty_metadata( $postid )
 {
     if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
         return false;

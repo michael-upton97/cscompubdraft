@@ -10,6 +10,9 @@ jQuery(document).ready(function () {
     jQuery('.bialty-mobi-label input').on('click', function() { 
         jQuery('.bialty-mobi').slideToggle();
     });
+    jQuery('.bialty-bigta-label input').on('click', function() { 
+        jQuery('.bialty-bigta').slideToggle();
+    });
 
     jQuery(function() {
         jQuery(".meter > span").each(function() {

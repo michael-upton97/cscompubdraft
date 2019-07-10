@@ -5,7 +5,7 @@ Requires at least: 4.1
 Requires PHP: 5.2.4
 Tested up to: 5.2
 WC tested up to: 3.5.1
-Stable tag: 1.2.1
+Stable tag: 1.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -112,3 +112,12 @@ Optimizing your images for SEO helps crawlers better index your web pages, which
 = 1.2.2 =
 * Fixed a major issue with cache plugins.
 * Code improvement
+
+= 1.2.4 =
+* Update Freemius SDK to latest release v2.3.0
+* Imroved code and fixed security
+* BIGTA recommedation notification
+* Updated all translations
+
+= 1.2.5 =
+* Fixed bug when post title start with a number, leave images broken

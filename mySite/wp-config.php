@@ -25,12 +25,19 @@ define( 'DB_NAME', 'remote-db');
 define( 'DB_USER', 'root');
 define( 'DB_PASSWORD', 'toor');
 define( 'DB_HOST', 'csdb.the-uptons.com:3316');
-*/
+
+
 define( 'DB_NAME', 'wordpress');
 define( 'DB_USER', 'wordpress');
 define( 'DB_PASSWORD', 'wordpress');
 define( 'DB_HOST', 'copsocalmysite_db_1');
 
+*/
+
+define( 'DB_NAME', 'local-db');
+define( 'DB_USER', 'root');
+define( 'DB_PASSWORD', '');
+define( 'DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8');

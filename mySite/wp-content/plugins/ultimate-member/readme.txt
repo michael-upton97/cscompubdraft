@@ -6,7 +6,7 @@ Donate link:
 Tags: community, member, membership, user-profile, user-registration
 Requires at least: 4.9
 Tested up to: 5.2
-Stable tag: 2.0.49
+Stable tag: 2.0.50
 License: GNU Version 2 or Any Later Version
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -71,6 +71,10 @@ Ultimate Member has a range of extensions that allow you to extend the power of 
 
 Our official [theme](https://ultimatemember.com/theme/) is purpose built for websites that have logged in and out users. The [theme](https://ultimatemember.com/theme/) has deep integration with Ultimate Member plugin and the extensions, different header designs for logged-in/out users and works alongside the Beaver Builder and Elementor page builders.
 
+= ForumWP =
+
+In addition to Ultimate Member we also have another plugin called [ForumWP](https://forumwpplugin.com/). ForumWP is a forum plugin which adds an online forum to your website, allowing users to create topics and write replies. Forums are a great way to build and grow an online community.
+
 = Development * Translations =
 
 If you're a developer and would like to contribute to the source code of the plugin you can do so via our [GitHub Repository](https://github.com/ultimatemember/ultimatemember).
@@ -132,6 +136,16 @@ The plugin works with popular caching plugins by automatically excluding Ultimat
 == Changelog ==
 
 = Important: UM2.0+ is a significant update to the code base from 1.3.88. Please make sure you take a full-site backup with restore point before updating the plugin =
+
+= 2.0.50: July 02, 2019 =
+
+* Enhancements:
+  - Extended hooks for 3rd party integrations
+
+* Bugfixes:
+  - Fixed PHP notices when runs validation
+  - Fixed loop issue with Profile tabs
+  - Fixed home page restrictions
 
 = 2.0.49: May 29, 2019 =
 

@@ -306,11 +306,6 @@ if ( ! class_exists( 'um\core\Files' ) ) {
 		 * Image upload by AJAX
 		 */
 		function ajax_image_upload() {
-         /**
-			* $ret['error'] = __('Functionality disabled');
-			* exit(json_encode($ret));
-			*/
-			
 			$ret['error'] = null;
 			$ret = array();
 

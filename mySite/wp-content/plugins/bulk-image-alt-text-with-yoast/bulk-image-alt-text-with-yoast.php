@@ -4,7 +4,7 @@
 * Plugin Name: BIALTY - Bulk Image Alt Text (Alt tag, Alt Attribute) with Yoast SEO + WooCommerce
 * Description: Auto-add Alt texts, also called Alt Tags or Alt Attributes, from YOAST SEO Focus Keyword field (or page/post/product title) with your page/post/product title, to all images contained on your pages, posts, products, portfolios for better Google Ranking on search engines – Fully compatible with Woocommerce
 * Author: Pagup
-* Version: 1.2.3
+* Version: 1.2.5
 * Author URI: https://pagup.com/
 * Text Domain: bialty
 * Domain Path: /languages/
@@ -81,23 +81,6 @@ class bialty
 {
     function __construct()
     {
-        // making sure we have the right paths...
-        // making sure we have the right paths...
-        
-        if ( !defined( 'WP_PLUGIN_URL' ) ) {
-            if ( !defined( 'WP_CONTENT_DIR' ) ) {
-                define( 'WP_CONTENT_DIR', ABSPATH . 'wp-content' );
-            }
-            if ( !defined( 'WP_CONTENT_URL' ) ) {
-                define( 'WP_CONTENT_URL', get_option( 'siteurl' ) . '/wp-content' );
-            }
-            if ( !defined( 'WP_PLUGIN_DIR' ) ) {
-                define( 'WP_PLUGIN_DIR', WP_CONTENT_DIR . '/plugins' );
-            }
-            define( 'WP_PLUGIN_URL', WP_CONTENT_URL . '/plugins' );
-        }
-        
-        // end if
         // stuff to do on plugin activation/deactivation
         //register_activation_hook(__FILE__, array(&$this, 'bialty_activate'));
         register_deactivation_hook( __FILE__, array( &$this, 'bialty_deactivate' ) );
@@ -157,8 +140,10 @@ function bialty_buffer( $content )
         //define site title
         $site_title = ", " . get_bloginfo( 'name' );
     }
-    // define post title for alt text
-    $replace_title = '$1' . get_the_title( $post->ID ) . '$2';
+    // check if post title is starting with a number
+    $post_title_fix = is_numeric( substr( $post_title, 0, 1 ) );
+    // if true fix bug by adding a blank space instead
+    ( $post_title_fix == true ? $replace_title = "\$1" . " " . $post_title . "\$2" : ($replace_title = "\$1" . $post_title . "\$2") );
     // if yoast options class exists
     
     if ( class_exists( 'WPSEO_Options' ) ) {
@@ -205,9 +190,12 @@ function bialty_buffer( $content )
                 $content = preg_replace( $pattern1, $replace_fkw, $content );
             }
         } elseif ( isset( $bialty_options['alt_empty'] ) && !empty($bialty_options['alt_empty']) && $bialty_options['alt_empty'] == "alt_empty_title" ) {
+            
             if ( is_singular( array( 'post', 'page' ) ) || is_home() ) {
                 $content = preg_replace( $pattern1, $replace_title, $content );
+                //"<div display='none'><script type='text/javascript'>console.log('Output: ".$post_title_new."')</script></div>";;
             }
+        
         } elseif ( empty($bialty_options['alt_empty']) || $bialty_options['alt_empty'] == "alt_empty_both" ) {
             if ( is_singular( array( 'post', 'page' ) ) || is_home() ) {
                 $content = preg_replace( $pattern1, $replace_both, $content );

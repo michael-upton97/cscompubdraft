@@ -288,90 +288,7 @@ function shapely_scripts() {
 	
 }
 
-/**
- * 
- * 	For Custom Meta Data on Admin Page
- * 
- */
 
-function mysite_custom_define() {
-	$custom_meta_fields = array();
-	$custom_meta_fields['account_status'] = 'Application Status';
-	$custom_meta_fields['member_status'] = 'Membership';
-	$custom_meta_fields['Church'] = 'Church';
-	return $custom_meta_fields;	
-}
-
-
-/*	create and fill cols */
-function mysite_columns($defaults) {
-	$meta_number = 0;
-	$custom_meta_fields = mysite_custom_define();
-	foreach ($custom_meta_fields as $meta_field_name => $meta_disp_name) {
-	  	$meta_number++;
-	  	$defaults[('mysite-usercolumn-' . $meta_number . '')] = __($meta_disp_name, 'user-column');
-	}
-	return $defaults;
-}
-  
-function mysite_custom_columns($value, $column_name, $id) {
-	$meta_number = 0;
-	$custom_meta_fields = mysite_custom_define();
-	foreach ($custom_meta_fields as $meta_field_name => $meta_disp_name) {
-	  	$meta_number++;
-	  	if( $column_name == ('mysite-usercolumn-' . $meta_number . '') ) {
-			return get_the_author_meta($meta_field_name, $id );
-		}
-	}
-}
-
-/* Show information on the user profile and edit pages */
-function mysite_show_extra_profile_fields($user) {
-	print('<h3>Extra profile information</h3>');
-  
-	print('<table class="form-table">');
-  
-	$meta_number = 0;
-	$custom_meta_fields = mysite_custom_define();
-	foreach ($custom_meta_fields as $meta_field_name => $meta_disp_name) {
-	  $meta_number++;
-	 	print('<tr>');
-	 	print('<th><label for="' . $meta_field_name . '">' . $meta_disp_name . '</label></th>');
-	 	print('<td>');
-	 	print('<input type="text" name="' . $meta_field_name . '" id="' . $meta_field_name . '" value="' . esc_attr( get_the_author_meta($meta_field_name, $user->ID ) ) . '" class="regular-text" /><br />');
-	 	print('<span class="description"></span>');
-	  	print('</td>');
-	  	print('</tr>');
-	}
-	print('</table>');
-}
-/* save changes */
-function mysite_save_extra_profile_fields($user_id) {
-	if (!current_user_can('edit_user', $user_id))
-	  	return false;
-  
-	$meta_number = 0;
-	$custom_meta_fields = mysite_custom_define();
-	foreach ($custom_meta_fields as $meta_field_name => $meta_disp_name) {
-	  	$meta_number++;
-	  	update_usermeta( $user_id, $meta_field_name, $_POST[$meta_field_name] );
-	}
-}
-
-/* Integration */
-add_action('show_user_profile', 'mysite_show_extra_profile_fields');
-add_action('edit_user_profile', 'mysite_show_extra_profile_fields');
-add_action('personal_options_update', 'mysite_save_extra_profile_fields');
-add_action('edit_user_profile_update', 'mysite_save_extra_profile_fields');
-add_action('manage_users_custom_column', 'mysite_custom_columns', 15, 3);
-add_filter('manage_users_columns', 'mysite_columns', 15, 1); 
-add_action( 'wp_enqueue_scripts', 'shapely_scripts' );
-
-/**
- * 
- * 	End Custom Meta Data
- * 
- */
 
 function email_disclaimer_function() { 
 	$i = '<p><strong>Disclaimer:</strong> We do not share your email with anyone, including other users or 3rd parties. </p>';
@@ -429,33 +346,7 @@ Shapely_Builder::get_instance();
 
 
 
-/**
- * 
- * Functions added to restrict users from page and post categories without having to specify those permissions
- * 
- */
 
-add_action( 'template_redirect', 'bn_restrict_acom_content' );
-function bn_restrict_acom_content(){
-
-  if( ! is_user_logged_in() && ( is_category( [ 'members', 'acom' ] ) || in_category( [ 'members', 'acom' ] ) ) ) {
-    wp_redirect( '/mysite/wp-login.php' );
-    exit;
-  }
-
-  if( is_user_logged_in() && current_user_can( 'member' ) && ( is_category( 'acom' ) || in_category( 'acom' ) ) ) {
-    wp_redirect( '/mysite/wp-login.php' );
-    exit;
-  }
-}
-
-add_action( 'template_redirect', 'bn_rescrict_backend' );
-function bn_rescrict_backend(){
-  if( ! current_user_can( 'manage_options') && is_admin() ) {
-    wp_redirect( home_url() );
-    exit;
-  }
-}
 
 
 

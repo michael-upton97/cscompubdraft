@@ -1,0 +1,356 @@
+0000.001 (0) Opened log file at time: Thu, 20 Jun 2019 18:46:26 +0000 on http://localhost/mysite
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.2 PHP: 7.2.18 (apache2handler, Windows NT DESKTOP-JTVBDRC 10.0 build 17134 (Windows 10) AMD64) MySQL: 5.7.26 WPLANG: en_US Server: Apache/2.4.39 (Win64) PHP/7.2.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 10.9M | 18M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 27364.6 MB
+0000.014 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: twicedaily)
+0000.015 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.018 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1560966913, seconds_ago=89473)
+0000.020 (0) Set semaphore last lock (f) time to 2019-06-20 18:46:26
+0000.021 (0) Semaphore lock (f) complete
+0000.025 (0) Backup run: resumption=0, nonce=3a0020e90bfc, file_nonce=3a0020e90bfc begun at=1561056386 (0s ago), job type=backup
+0000.026 (0) Scheduling a resumption (1) after 300 seconds (1561056686) in case this run gets aborted
+0000.029 (0) Checking if we have a zip executable available
+0000.031 (0) Creation of backups of directories: beginning
+0000.037 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0005.161 (0) Total entities for the zip file: 1536 directories, 8441 files (0 skipped as non-modified), 134.7 MB
+0005.169 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0005.319 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 100 files added (on-disk size: 255.1 KB)
+0005.382 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 200 files added (on-disk size: 255.1 KB)
+0005.460 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 300 files added (on-disk size: 255.1 KB)
+0005.530 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 400 files added (on-disk size: 255.1 KB)
+0005.589 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 500 files added (on-disk size: 255.1 KB)
+0005.592 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7 MB, 8441 files batched, 501 (502) added so far); re-opening (prior size: 255.1 KB)
+0006.356 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 600 files added (on-disk size: 2233 KB)
+0006.438 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 700 files added (on-disk size: 2233 KB)
+0006.507 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 800 files added (on-disk size: 2233 KB)
+0006.577 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 900 files added (on-disk size: 2233 KB)
+0006.632 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 1000 files added (on-disk size: 2233 KB)
+0006.637 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (17.2 MB, 8441 files batched, 501 (1003) added so far); re-opening (prior size: 2233 KB)
+0007.712 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 1100 files added (on-disk size: 15963.8 KB)
+0007.958 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 1200 files added (on-disk size: 15963.8 KB)
+0008.038 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 1300 files added (on-disk size: 15963.8 KB)
+0008.091 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 1400 files added (on-disk size: 15963.8 KB)
+0008.159 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 1500 files added (on-disk size: 15963.8 KB)
+0008.166 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.7 MB, 8441 files batched, 501 (1504) added so far); re-opening (prior size: 15963.8 KB)
+0009.250 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 1600 files added (on-disk size: 18555.1 KB)
+0009.378 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 1700 files added (on-disk size: 18555.1 KB)
+0009.485 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 1800 files added (on-disk size: 18555.1 KB)
+0009.613 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 1900 files added (on-disk size: 18555.1 KB)
+0009.739 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 2000 files added (on-disk size: 18555.1 KB)
+0009.744 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.6 MB, 8441 files batched, 501 (2005) added so far); re-opening (prior size: 18555.1 KB)
+0010.308 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 2100 files added (on-disk size: 20008.4 KB)
+0010.363 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 2200 files added (on-disk size: 20008.4 KB)
+0010.549 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 2300 files added (on-disk size: 20008.4 KB)
+0010.662 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 2400 files added (on-disk size: 20008.4 KB)
+0010.768 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 2500 files added (on-disk size: 20008.4 KB)
+0010.775 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.7 MB, 8441 files batched, 501 (2506) added so far); re-opening (prior size: 20008.4 KB)
+0012.143 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 2600 files added (on-disk size: 23040.5 KB)
+0012.205 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 2700 files added (on-disk size: 23040.5 KB)
+0012.279 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 2800 files added (on-disk size: 23040.5 KB)
+0012.365 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 2900 files added (on-disk size: 23040.5 KB)
+0012.470 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 3000 files added (on-disk size: 23040.5 KB)
+0012.476 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.9 MB, 8441 files batched, 501 (3007) added so far); re-opening (prior size: 23040.5 KB)
+0013.090 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 3100 files added (on-disk size: 24141.5 KB)
+0013.290 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 3200 files added (on-disk size: 24141.5 KB)
+0013.428 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 3300 files added (on-disk size: 24141.5 KB)
+0013.515 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 3400 files added (on-disk size: 24141.5 KB)
+0013.820 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 3500 files added (on-disk size: 24141.5 KB)
+0013.826 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.3 MB, 8441 files batched, 501 (3508) added so far); re-opening (prior size: 24141.5 KB)
+0014.983 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 3600 files added (on-disk size: 27068.7 KB)
+0015.054 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 3700 files added (on-disk size: 27068.7 KB)
+0015.139 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 3800 files added (on-disk size: 27068.7 KB)
+0015.236 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 3900 files added (on-disk size: 27068.7 KB)
+0015.314 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 4000 files added (on-disk size: 27068.7 KB)
+0015.322 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.8 MB, 8441 files batched, 501 (4009) added so far); re-opening (prior size: 27068.7 KB)
+0016.669 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 4100 files added (on-disk size: 34685.3 KB)
+0016.810 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 4200 files added (on-disk size: 34685.3 KB)
+0016.908 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 4300 files added (on-disk size: 34685.3 KB)
+0016.973 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 4400 files added (on-disk size: 34685.3 KB)
+0017.062 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 4500 files added (on-disk size: 34685.3 KB)
+0017.069 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.5 MB, 8441 files batched, 501 (4510) added so far); re-opening (prior size: 34685.3 KB)
+0018.109 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 4600 files added (on-disk size: 37538.7 KB)
+0018.214 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 4700 files added (on-disk size: 37538.7 KB)
+0018.343 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 4800 files added (on-disk size: 37538.7 KB)
+0018.415 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 4900 files added (on-disk size: 37538.7 KB)
+0018.472 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 5000 files added (on-disk size: 37538.7 KB)
+0018.479 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8 MB, 8441 files batched, 501 (5011) added so far); re-opening (prior size: 37538.7 KB)
+0019.841 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 5100 files added (on-disk size: 40669 KB)
+0019.899 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 5200 files added (on-disk size: 40669 KB)
+0020.063 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 5300 files added (on-disk size: 40669 KB)
+0020.124 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 5400 files added (on-disk size: 40669 KB)
+0020.181 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 5500 files added (on-disk size: 40669 KB)
+0020.190 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (18.1 MB, 8441 files batched, 501 (5512) added so far); re-opening (prior size: 40669 KB)
+0022.216 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 5600 files added (on-disk size: 45739.8 KB)
+0022.275 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 5700 files added (on-disk size: 45739.8 KB)
+0022.338 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 5800 files added (on-disk size: 45739.8 KB)
+0022.424 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 5900 files added (on-disk size: 45739.8 KB)
+0022.484 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 6000 files added (on-disk size: 45739.8 KB)
+0022.493 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.9 MB, 8441 files batched, 501 (6013) added so far); re-opening (prior size: 45739.8 KB)
+0023.703 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 6100 files added (on-disk size: 46450.3 KB)
+0023.761 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 6200 files added (on-disk size: 46450.3 KB)
+0023.819 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 6300 files added (on-disk size: 46450.3 KB)
+0023.883 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 6400 files added (on-disk size: 46450.3 KB)
+0023.946 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 6500 files added (on-disk size: 46450.3 KB)
+0023.955 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.8 MB, 8441 files batched, 501 (6514) added so far); re-opening (prior size: 46450.3 KB)
+0025.359 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 6600 files added (on-disk size: 47817.1 KB)
+0025.469 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 6700 files added (on-disk size: 47817.1 KB)
+0025.542 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 6800 files added (on-disk size: 47817.1 KB)
+0025.623 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 6900 files added (on-disk size: 47817.1 KB)
+0025.678 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 7000 files added (on-disk size: 47817.1 KB)
+0025.687 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.6 MB, 8441 files batched, 501 (7015) added so far); re-opening (prior size: 47817.1 KB)
+0028.939 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 7100 files added (on-disk size: 52027.1 KB)
+0028.999 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 7200 files added (on-disk size: 52027.1 KB)
+0029.058 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 7300 files added (on-disk size: 52027.1 KB)
+0029.112 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 7400 files added (on-disk size: 52027.1 KB)
+0029.218 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 7500 files added (on-disk size: 52027.1 KB)
+0029.227 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.1 MB, 8441 files batched, 501 (7516) added so far); re-opening (prior size: 52027.1 KB)
+0030.872 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 7600 files added (on-disk size: 52900.1 KB)
+0031.133 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 7700 files added (on-disk size: 52900.1 KB)
+0031.298 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 7800 files added (on-disk size: 52900.1 KB)
+0031.376 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 7900 files added (on-disk size: 52900.1 KB)
+0031.436 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 8000 files added (on-disk size: 52900.1 KB)
+0031.447 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.5 MB, 8441 files batched, 501 (8017) added so far); re-opening (prior size: 52900.1 KB)
+0034.170 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 8100 files added (on-disk size: 56084 KB)
+0034.230 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 8200 files added (on-disk size: 56084 KB)
+0034.287 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 8300 files added (on-disk size: 56084 KB)
+0034.344 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip.tmp: 8400 files added (on-disk size: 56084 KB)
+0036.483 (0) Created plugins zip (0) - 56833 KB in 36.4 s (1559.7 KB/s) (sha1: fdd0972ea7c8bbf4cfcd98b31b94fd121f9b20d6, sha256: 4ddf3de0b8bab67d7687eddf1cf57ddde563757953bd9c40b061ed64886d4292)
+0036.491 (0) Beginning creation of dump of themes (split every: 400 MB)
+0036.887 (0) Total entities for the zip file: 111 directories, 458 files (0 skipped as non-modified), 10.4 MB
+0037.012 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0037.137 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0037.246 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0037.386 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0038.419 (0) Created themes zip (0) - 5968.9 KB in 1.9 s (3107.3 KB/s) (sha1: 513b18279ee24bc411d51bc35d55db180f0f2f2c, sha256: 6d04741c976493e848e3d6c2d221c3473e0979897bcf4e9db8d5ffad64607d82)
+0038.429 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0038.430 (0) Looking for candidates to backup in: C:\wamp64\www\mySite/wp-content/uploads
+0038.432 (0) finding files: .htaccess: adding to list (1)
+0038.434 (0) finding files: 2019: adding to list (2)
+0038.435 (0) finding files: elementor: adding to list (3)
+0038.436 (0) finding files: maxmegamenu: adding to list (4)
+0038.439 (0) finding files: redux: adding to list (5)
+0038.441 (0) finding files: shapely: adding to list (6)
+0038.445 (0) finding files: ultimatemember: adding to list (7)
+0038.448 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0038.693 (0) Total entities for the zip file: 11 directories, 393 files (0 skipped as non-modified), 55.8 MB
+0038.751 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0038.805 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0038.812 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.6 MB, 393 files batched, 210 (210) added so far); re-opening (prior size: 0 KB)
+0039.225 (0) A useful amount of data was added after this amount of zip processing: 1.1 s (normalised: 1.1 s, rate: 24331.1 KB/s)
+0039.228 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.0774099826813, normalised_time=1.0521531534767, max_time=39.225822925568, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0039.278 (0) Zip: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-uploads.zip.tmp: 300 files added (on-disk size: 26251.7 KB)
+0040.312 (0) Created uploads zip (0) - 57029.2 KB in 1.9 s (30732.6 KB/s) (sha1: d36932a6625a60b8146f4e26f5572884dd65e50e, sha256: 58a543128414e20747ce96b8cba1a7d77d1031a29fee815f174e31d17cfe3b63)
+0040.320 (0) Beginning backup of other directories found in the content directory (index: 0)
+0040.321 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0040.322 (0) Looking for candidates to backup in: C:\wamp64\www\mySite/wp-content
+0040.323 (0) finding files: cache: skipping: excluded by options
+0040.324 (0) finding files: index.php: adding to list (1)
+0040.325 (0) finding files: plugins: skipping: this is the plugins directory
+0040.326 (0) finding files: themes: skipping: this is the themes directory
+0040.327 (0) finding files: updraft: skipping: this is the updraft directory
+0040.328 (0) finding files: uploads: skipping: this is the uploads directory
+0040.368 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0040.377 (0) Created others zip (0) - 0.1 KB in 0 s (3.3 KB/s) (sha1: eb68658196e3855a6079bb5797623b4780259056, sha256: fad0b149cc9ac703ddb730366ec246f146752a467f18f4d0ca1a5e2e86ed3dda)
+0040.386 (0) Saving backup status to database (elements: 8)
+0040.390 (0) No database backup (wp) - not part of this run
+0040.394 (0) backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0040.395 (0) backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0040.396 (0) backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0040.397 (0) backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-others.zip: others: This file has not yet been successfully uploaded: will queue
+0040.398 (0) Saving backup history. Total backup size: 117 MB
+0040.402 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0040.404 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0040.405 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d67d4aa0064a3f2c7d586d8154e3a841)
+0040.782 (0) Google Drive: quota usage: used=466.8 MB, total=15360 MB, available=14893.2 MB
+0040.783 (0) Google Drive: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+0043.177 (0) Googledrive chunked upload: 1.8 % uploaded (1048576)
+0044.340 (0) Googledrive chunked upload: 3.6 % uploaded (2097152)
+0045.731 (0) Googledrive chunked upload: 5.4 % uploaded (3145728)
+0047.170 (0) Googledrive chunked upload: 7.2 % uploaded (4194304)
+0048.066 (0) Googledrive chunked upload: 9 % uploaded (5242880)
+0049.200 (0) Googledrive chunked upload: 10.8 % uploaded (6291456)
+0050.428 (0) Googledrive chunked upload: 12.6 % uploaded (7340032)
+0051.638 (0) Googledrive chunked upload: 14.4 % uploaded (8388608)
+0052.797 (0) Googledrive chunked upload: 16.2 % uploaded (9437184)
+0054.197 (0) Googledrive chunked upload: 18 % uploaded (10485760)
+0055.514 (0) Googledrive chunked upload: 19.8 % uploaded (11534336)
+0056.470 (0) Googledrive chunked upload: 21.6 % uploaded (12582912)
+0057.083 (0) Googledrive chunked upload: 23.4 % uploaded (13631488)
+0058.057 (0) Googledrive chunked upload: 25.2 % uploaded (14680064)
+0059.419 (0) Googledrive chunked upload: 27 % uploaded (15728640)
+0061.259 (0) Googledrive chunked upload: 28.8 % uploaded (16777216)
+0064.316 (0) Googledrive chunked upload: 30.6 % uploaded (17825792)
+0065.708 (0) Googledrive chunked upload: 32.4 % uploaded (18874368)
+0067.081 (0) Googledrive chunked upload: 34.2 % uploaded (19922944)
+0067.680 (0) Googledrive chunked upload: 36 % uploaded (20971520)
+0068.840 (0) Googledrive chunked upload: 37.8 % uploaded (22020096)
+0070.001 (0) Googledrive chunked upload: 39.6 % uploaded (23068672)
+0070.611 (0) Googledrive chunked upload: 41.4 % uploaded (24117248)
+0071.999 (0) Googledrive chunked upload: 43.2 % uploaded (25165824)
+0072.607 (0) Googledrive chunked upload: 45 % uploaded (26214400)
+0074.105 (0) Googledrive chunked upload: 46.8 % uploaded (27262976)
+0075.449 (0) Googledrive chunked upload: 48.6 % uploaded (28311552)
+0076.861 (0) Googledrive chunked upload: 50.4 % uploaded (29360128)
+0077.847 (0) Googledrive chunked upload: 52.3 % uploaded (30408704)
+0078.835 (0) Googledrive chunked upload: 54.1 % uploaded (31457280)
+0082.851 (0) Googledrive chunked upload: 55.9 % uploaded (32505856)
+0084.197 (0) Googledrive chunked upload: 57.7 % uploaded (33554432)
+0085.611 (0) Googledrive chunked upload: 59.5 % uploaded (34603008)
+0087.195 (0) Googledrive chunked upload: 61.3 % uploaded (35651584)
+0088.508 (0) Googledrive chunked upload: 63.1 % uploaded (36700160)
+0089.830 (0) Googledrive chunked upload: 64.9 % uploaded (37748736)
+0091.126 (0) Googledrive chunked upload: 66.7 % uploaded (38797312)
+0092.179 (0) Googledrive chunked upload: 68.5 % uploaded (39845888)
+0093.042 (0) Googledrive chunked upload: 70.3 % uploaded (40894464)
+0094.059 (0) Googledrive chunked upload: 72.1 % uploaded (41943040)
+0095.458 (0) Googledrive chunked upload: 73.9 % uploaded (42991616)
+0096.718 (0) Googledrive chunked upload: 75.7 % uploaded (44040192)
+0097.726 (0) Googledrive chunked upload: 77.5 % uploaded (45088768)
+0101.626 (0) Googledrive chunked upload: 79.3 % uploaded (46137344)
+0102.603 (0) Googledrive chunked upload: 81.1 % uploaded (47185920)
+0104.021 (0) Googledrive chunked upload: 82.9 % uploaded (48234496)
+0105.405 (0) Googledrive chunked upload: 84.7 % uploaded (49283072)
+0106.767 (0) Googledrive chunked upload: 86.5 % uploaded (50331648)
+0108.130 (0) Googledrive chunked upload: 88.3 % uploaded (51380224)
+0109.228 (0) Googledrive chunked upload: 90.1 % uploaded (52428800)
+0110.588 (0) Googledrive chunked upload: 91.9 % uploaded (53477376)
+0111.949 (0) Googledrive chunked upload: 93.7 % uploaded (54525952)
+0113.087 (0) Googledrive chunked upload: 95.5 % uploaded (55574528)
+0114.938 (0) Googledrive chunked upload: 97.3 % uploaded (56623104)
+0115.958 (0) Googledrive chunked upload: 99.1 % uploaded (57671680)
+0118.277 (0) Googledrive chunked upload: 100 % uploaded (57671680)
+0118.283 (0) Google Drive: OK: Archive backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip uploaded in 77.5 seconds
+0118.286 (0) Recording as successfully uploaded: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip
+0118.295 (0) Deleting local file: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-plugins.zip: OK
+0118.864 (0) Google Drive: quota usage: used=522.3 MB, total=15360 MB, available=14837.7 MB
+0118.865 (0) Google Drive: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-themes.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+0120.670 (0) Googledrive chunked upload: 17.2 % uploaded (1048576)
+0122.042 (0) Googledrive chunked upload: 34.3 % uploaded (2097152)
+0123.042 (0) Googledrive chunked upload: 51.5 % uploaded (3145728)
+0124.199 (0) Googledrive chunked upload: 68.6 % uploaded (4194304)
+0125.407 (0) Googledrive chunked upload: 85.8 % uploaded (5242880)
+0127.070 (0) Googledrive chunked upload: 100 % uploaded (5242880)
+0127.074 (0) Google Drive: OK: Archive backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-themes.zip uploaded in 8.21 seconds
+0127.076 (0) Recording as successfully uploaded: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-themes.zip
+0127.079 (0) Deleting local file: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-themes.zip: OK
+0127.762 (0) Google Drive: quota usage: used=528.2 MB, total=15360 MB, available=14831.8 MB
+0127.763 (0) Google Drive: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-uploads.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+0130.589 (0) Googledrive chunked upload: 1.8 % uploaded (1048576)
+0132.008 (0) Googledrive chunked upload: 3.6 % uploaded (2097152)
+0133.153 (0) Googledrive chunked upload: 5.4 % uploaded (3145728)
+0134.556 (0) Googledrive chunked upload: 7.2 % uploaded (4194304)
+0135.559 (0) Googledrive chunked upload: 9 % uploaded (5242880)
+0137.403 (0) Googledrive chunked upload: 10.8 % uploaded (6291456)
+0138.385 (0) Googledrive chunked upload: 12.6 % uploaded (7340032)
+0139.732 (0) Googledrive chunked upload: 14.4 % uploaded (8388608)
+0140.724 (0) Googledrive chunked upload: 16.2 % uploaded (9437184)
+0142.187 (0) Googledrive chunked upload: 18 % uploaded (10485760)
+0143.225 (0) Googledrive chunked upload: 19.8 % uploaded (11534336)
+0144.336 (0) Googledrive chunked upload: 21.5 % uploaded (12582912)
+0145.764 (0) Googledrive chunked upload: 23.3 % uploaded (13631488)
+0146.844 (0) Googledrive chunked upload: 25.1 % uploaded (14680064)
+0148.153 (0) Googledrive chunked upload: 26.9 % uploaded (15728640)
+0148.804 (0) Googledrive chunked upload: 28.7 % uploaded (16777216)
+0149.961 (0) Googledrive chunked upload: 30.5 % uploaded (17825792)
+0150.884 (0) Googledrive chunked upload: 32.3 % uploaded (18874368)
+0152.233 (0) Googledrive chunked upload: 34.1 % uploaded (19922944)
+0153.283 (0) Googledrive chunked upload: 35.9 % uploaded (20971520)
+0155.089 (0) Googledrive chunked upload: 37.7 % uploaded (22020096)
+0156.595 (0) Googledrive chunked upload: 39.5 % uploaded (23068672)
+0157.611 (0) Googledrive chunked upload: 41.3 % uploaded (24117248)
+0159.170 (0) Googledrive chunked upload: 43.1 % uploaded (25165824)
+0160.597 (0) Googledrive chunked upload: 44.9 % uploaded (26214400)
+0161.762 (0) Googledrive chunked upload: 46.7 % uploaded (27262976)
+0163.250 (0) Googledrive chunked upload: 48.5 % uploaded (28311552)
+0164.267 (0) Googledrive chunked upload: 50.3 % uploaded (29360128)
+0165.780 (0) Googledrive chunked upload: 52.1 % uploaded (30408704)
+0166.913 (0) Googledrive chunked upload: 53.9 % uploaded (31457280)
+0168.726 (0) Googledrive chunked upload: 55.7 % uploaded (32505856)
+0171.666 (0) Googledrive chunked upload: 57.5 % uploaded (33554432)
+0172.971 (0) Googledrive chunked upload: 59.3 % uploaded (34603008)
+0174.407 (0) Googledrive chunked upload: 61 % uploaded (35651584)
+0175.422 (0) Googledrive chunked upload: 62.8 % uploaded (36700160)
+0176.766 (0) Googledrive chunked upload: 64.6 % uploaded (37748736)
+0177.818 (0) Googledrive chunked upload: 66.4 % uploaded (38797312)
+0179.235 (0) Googledrive chunked upload: 68.2 % uploaded (39845888)
+0180.253 (0) Googledrive chunked upload: 70 % uploaded (40894464)
+0182.068 (0) Googledrive chunked upload: 71.8 % uploaded (41943040)
+0183.156 (0) Googledrive chunked upload: 73.6 % uploaded (42991616)
+0184.584 (0) Googledrive chunked upload: 75.4 % uploaded (44040192)
+0186.487 (0) Googledrive chunked upload: 77.2 % uploaded (45088768)
+0187.756 (0) Googledrive chunked upload: 79 % uploaded (46137344)
+0189.073 (0) Googledrive chunked upload: 80.8 % uploaded (47185920)
+0190.389 (0) Googledrive chunked upload: 82.6 % uploaded (48234496)
+0192.168 (0) Googledrive chunked upload: 84.4 % uploaded (49283072)
+0193.536 (0) Googledrive chunked upload: 86.2 % uploaded (50331648)
+0194.994 (0) Googledrive chunked upload: 88 % uploaded (51380224)
+0196.337 (0) Googledrive chunked upload: 89.8 % uploaded (52428800)
+0197.825 (0) Googledrive chunked upload: 91.6 % uploaded (53477376)
+0199.201 (0) Googledrive chunked upload: 93.4 % uploaded (54525952)
+0200.079 (0) Googledrive chunked upload: 95.2 % uploaded (55574528)
+0201.408 (0) Googledrive chunked upload: 97 % uploaded (56623104)
+0202.278 (0) Googledrive chunked upload: 98.8 % uploaded (57671680)
+0203.797 (0) Googledrive chunked upload: 100 % uploaded (57671680)
+0203.806 (0) Google Drive: OK: Archive backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-uploads.zip uploaded in 76.04 seconds
+0203.809 (0) Recording as successfully uploaded: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-uploads.zip
+0203.825 (0) Deleting local file: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-uploads.zip: OK
+0204.235 (0) Google Drive: quota usage: used=583.9 MB, total=15360 MB, available=14776.1 MB
+0204.236 (0) Google Drive: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-others.zip: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+0205.442 (0) Googledrive chunked upload: 100 % uploaded
+0205.446 (0) Google Drive: OK: Archive backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-others.zip uploaded in 1.21 seconds
+0205.447 (0) Recording as successfully uploaded: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-others.zip
+0205.450 (0) Deleting local file: backup_2019-06-20-1846_Christian_Science_Committee_on_P_3a0020e90bfc-others.zip: OK
+0205.453 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0205.455 (0) Number of backup sets in history: 8; groups (db): 1
+0205.456 (0) Examining (for databases) backup set with group_id=0, nonce=3a0020e90bfc, datestamp=1561056386 (Jun 20 2019 18:46:26)
+0205.457 (0) Examining (for databases) backup set with group_id=0, nonce=cc6f915acc99, datestamp=1561056378 (Jun 20 2019 18:46:18)
+0205.457 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0205.458 (0) Examining (for databases) backup set with group_id=0, nonce=17278d4e8a9a, datestamp=1560966913 (Jun 19 2019 17:55:13)
+0205.458 (0) Examining (for databases) backup set with group_id=0, nonce=92926a05c840, datestamp=1560966775 (Jun 19 2019 17:52:55)
+0205.458 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0205.459 (0) Examining (for databases) backup set with group_id=0, nonce=425e766ea195, datestamp=1560959561 (Jun 19 2019 15:52:41)
+0205.459 (0) Examining (for databases) backup set with group_id=0, nonce=4dbf60cab42a, datestamp=1560959555 (Jun 19 2019 15:52:35)
+0205.459 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0205.461 (0) Examining (for databases) backup set with group_id=0, nonce=f9bc363bd3c0, datestamp=1560794086 (Jun 17 2019 17:54:46)
+0205.461 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0205.461 (0) Examining (for databases) backup set with group_id=0, nonce=bd7ea56d574f, datestamp=1560793958 (Jun 17 2019 17:52:38)
+0205.461 (0) Number of backup sets in history: 8; groups (files): 1
+0205.462 (0) Examining (for files) backup set with nonce=3a0020e90bfc, datestamp=1561056386 (Jun 20 2019 18:46:26)
+0205.462 (0) This backup set is the backup set just made, so will not be deleted.
+0205.463 (0) This backup set is the backup set just made, so will not be deleted.
+0205.463 (0) This backup set is the backup set just made, so will not be deleted.
+0205.464 (0) This backup set is the backup set just made, so will not be deleted.
+0205.464 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0205.465 (0) Examining (for files) backup set with nonce=cc6f915acc99, datestamp=1561056378 (Jun 20 2019 18:46:18)
+0205.465 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0205.466 (0) Examining (for files) backup set with nonce=17278d4e8a9a, datestamp=1560966913 (Jun 19 2019 17:55:13)
+0205.466 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0205.467 (0) Examining (for files) backup set with nonce=92926a05c840, datestamp=1560966775 (Jun 19 2019 17:52:55)
+0205.467 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0205.468 (0) Examining (for files) backup set with nonce=425e766ea195, datestamp=1560959561 (Jun 19 2019 15:52:41)
+0205.468 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0205.469 (0) Examining (for files) backup set with nonce=4dbf60cab42a, datestamp=1560959555 (Jun 19 2019 15:52:35)
+0205.469 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0205.470 (0) Examining (for files) backup set with nonce=f9bc363bd3c0, datestamp=1560794086 (Jun 17 2019 17:54:46)
+0205.470 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0205.471 (0) Examining (for files) backup set with nonce=bd7ea56d574f, datestamp=1560793958 (Jun 17 2019 17:52:38)
+0205.471 (0) plugins: over retain limit (4); will delete this file entity
+0205.471 (0) themes: over retain limit (4); will delete this file entity
+0205.471 (0) uploads: over retain limit (4); will delete this file entity
+0205.471 (0) others: over retain limit (4); will delete this file entity
+0205.471 (0) Delete file: backup_2019-06-17-1752_Christian_Science_Committee_on_P_bd7ea56d574f-plugins.zip, service=googledrive
+0205.472 (0) Delete file: backup_2019-06-17-1752_Christian_Science_Committee_on_P_bd7ea56d574f-themes.zip, service=googledrive
+0205.473 (0) Delete file: backup_2019-06-17-1752_Christian_Science_Committee_on_P_bd7ea56d574f-uploads.zip, service=googledrive
+0205.474 (0) Delete file: backup_2019-06-17-1752_Christian_Science_Committee_on_P_bd7ea56d574f-others.zip, service=googledrive
+0206.526 (0) Google Drive: backup_2019-06-17-1752_Christian_Science_Committee_on_P_bd7ea56d574f-others.zip: Deletion successful
+0207.095 (0) Google Drive: backup_2019-06-17-1752_Christian_Science_Committee_on_P_bd7ea56d574f-uploads.zip: Deletion successful
+0208.057 (0) Google Drive: backup_2019-06-17-1752_Christian_Science_Committee_on_P_bd7ea56d574f-themes.zip: Deletion successful
+0208.617 (0) Google Drive: backup_2019-06-17-1752_Christian_Science_Committee_on_P_bd7ea56d574f-plugins.zip: Deletion successful
+0208.620 (0) This backup set is now empty; will remove from history
+0208.622 (0) Deleting log file (log.bd7ea56d574f.txt)
+0208.623 (0) Retain: saving new backup history (sets now: 7) and finishing retain operation
+0208.628 (0) Resume backup (3a0020e90bfc, 0): finish run
+0208.632 (0) Decremented the semaphore (f) by 1
+0208.634 (0) Semaphore (f) unlocked
+0208.635 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0208.639 (0) No email will/can be sent - the user has not configured an email address.
+0208.640 (0) The backup apparently succeeded and is now complete

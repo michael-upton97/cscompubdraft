@@ -16,7 +16,8 @@ get_header(); ?>
 <?php $layout_class = shapely_get_layout_class(); ?>
 	<div class="row">
 		<?php
-		if ( 'sidebar-left' == $layout_class ) :
+		// if statement added to only show sidebar for higher level users
+		if( (current_user_can( 'administrator' ) || current_user_can( 'acom' )) && ('sidebar-left' == $layout_class) ) :
 			get_sidebar();
 		endif;
 		?>
@@ -36,7 +37,8 @@ get_header(); ?>
 			?>
 		</div><!-- #primary -->
 		<?php
-		if ( 'sidebar-right' == $layout_class ) :
+		// if statement added to only show sidebar for higher level users
+		if( (current_user_can( 'administrator' ) || current_user_can( 'acom' )) && ('sidebar-right' == $layout_class) ) :
 			get_sidebar();
 		endif;
 		?>

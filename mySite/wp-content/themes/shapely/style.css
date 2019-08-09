@@ -44,6 +44,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Galleries
 --------------------------------------------------------------*/
 
+.custom-full-width {
+	margin: 5%;
+	padding-right: 50px;
+	width: 90% !important;
+}
+
+
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -859,7 +866,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	font-size: 20px;
 	line-height: 24px;
-	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Arial, "Raleway", "Helvetica Neue", Helvetica, sans-serif;
 	color: #8c979e;
 	overflow-x: hidden;
 	font-weight: 400;
@@ -1226,7 +1233,7 @@ footer {
 }
 
 .btn:hover, .button:hover {
-	background: #745cf9;
+	background: #745cf9 !important;
 	color: #fff;
 }
 
@@ -1264,8 +1271,8 @@ footer {
 }
 
 .btn-white, .image-bg .btn, .image-bg .btn:visited {
-	color: #fff;
-	border-color: #fff;
+	color: rgb(105, 105, 105);
+	border-color: rgb(105, 105, 105);
 }
 
 .image-bg .btn.btn-filled {
@@ -1275,14 +1282,14 @@ footer {
 }
 
 .btn-white:hover, .image-bg .btn:hover, .image-bg .btn:visited:hover {
-	background: #fff;
-	border-color: #fff;
-	color: #222;
+	background: rgb(105, 105, 105) !important;
+	border-color: rgb(105, 105, 105) !important;
+	color: #000;
 }
 
 .image-bg .btn.btn-filled:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover {
-	background: #5d47d7;
-	border-color: #5d47d7;
+	background: #5d47d7 !important;
+	border-color: #5d47d7 !important;
 	color: #fff;
 }
 
@@ -1291,11 +1298,11 @@ footer {
 }
 
 .btn-white:visited, .btn:visited:hover {
-	color: #fff;
+	color: rgb(105, 105, 105);
 }
 
 .btn-white:visited:hover {
-	color: #222;
+	color: #000;
 }
 
 .btn-filled:visited {
@@ -2647,7 +2654,7 @@ img {
 
 .post-title a, .post-title {
 	font-size: 40px;
-	font-weight: 300;
+	font-weight: 500 !important;
 }
 
 .post-title a:hover {

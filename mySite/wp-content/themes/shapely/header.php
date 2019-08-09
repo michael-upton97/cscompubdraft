@@ -57,6 +57,7 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 								<?php shapely_header_menu(); ?>
 							</div>
 							<!--end of menu module-->
+							<?php /*
 							<div class="module widget-handle search-widget-handle hidden-xs hidden-sm">
 								<div class="search">
 									<i class="fa fa-search"></i>
@@ -68,6 +69,7 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 									?>
 								</div>
 							</div>
+							*/ ?>
 						</div>
 						<!--end of module group-->
 					</div>

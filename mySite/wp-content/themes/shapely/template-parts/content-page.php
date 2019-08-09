@@ -5,7 +5,7 @@
 		if ( has_post_thumbnail() ) {
 		?>
 			<a class="text-center" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-			<?php
+			<?php 
 				$thumbnail_args = array(
 					'class' => 'mb24',
 				);

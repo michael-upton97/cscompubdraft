@@ -25,15 +25,18 @@ if ( post_password_required() ) {
 
 <div id="comments" class="comments-area comments  nolist">
 	<?php if ( have_comments() && (current_user_can( 'administrator') || current_user_can( 'member') || current_user_can( 'acom')) ): ?>
-		<h5 class="comments-title">
+		<h4 class="comments-title">
 			<?php
 			$comments_number = get_comments_number();
-			if ( '1' === $comments_number ) {
 				/* translators: %s: post title */
+			echo ("<hr>COMMITTEE OFFICE COMMENTS:");
+			/*
+			if ( '1' === $comments_number ) {
+				/* translators: %s: post title 
 				echo _x( '1 COMMENT', 'comments title', 'shapely' );
 			} else {
 				printf(
-					/* translators: number of comments */
+					/* translators: number of comments 
 					_nx(
 						'%1$s COMMENT',
 						'%1$s COMMENTS',
@@ -43,9 +46,9 @@ if ( post_password_required() ) {
 					),
 					number_format_i18n( $comments_number )
 				);
-			}
+			}*/
 			?>
-		</h5>
+		</h4>
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : ?>
 			<nav id="comment-nav-above" class="navigation comment-navigation" role="navigation">

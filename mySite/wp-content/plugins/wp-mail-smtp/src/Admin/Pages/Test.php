@@ -320,7 +320,7 @@ class Test extends PageAbstract {
 													<table style="border-collapse: collapse; border-spacing: 0; padding: 0; vertical-align: top; text-align: left; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; width: 100% !important;">
 														<tr style="padding: 0; vertical-align: top; text-align: left;">
 															<td style="word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; font-weight: normal; padding: 0; margin: 0; Margin: 0; font-size: 14px; text-align: center; color: #ffffff; background: #e27730; border: 1px solid #c45e1b; border-bottom: 3px solid #c45e1b; mso-line-height-rule: exactly; line-height: 100%;">
-																<a href="https://wpmailsmtp.com/pricing-lite/?utm_source=WordPress&utm_medium=email-cta&utm_campaign=plugin" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; margin: 0; Margin: 0; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; display: inline-block; border: 0 solid #c45e1b; mso-line-height-rule: exactly; line-height: 100%; padding: 14px 20px 12px 20px; font-size: 20px; text-align: center; width: 100%; padding-left: 0; padding-right: 0;">
+																<a href="<?php echo esc_url( wp_mail_smtp()->get_upgrade_link( 'email-test' ) ); ?>" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; margin: 0; Margin: 0; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; display: inline-block; border: 0 solid #c45e1b; mso-line-height-rule: exactly; line-height: 100%; padding: 14px 20px 12px 20px; font-size: 20px; text-align: center; width: 100%; padding-left: 0; padding-right: 0;">
 																	Upgrade to WP Mail SMTP Pro Today
 																</a>
 															</td>
@@ -597,7 +597,7 @@ Lead Developer, WP Mail SMTP';
 				'description' => array(
 					'<strong>' . esc_html__( 'Error due to unsolicited and/or bulk e-mail.', 'wp-mail-smtp' ) . '</strong>',
 					esc_html__( 'This means the connection to your SMTP host was made successfully, but the host rejected the email.', 'wp-mail-smtp' ),
-					esc_html__( 'Typically this error is returned when your are sending too many e-mails or e-mails that have been identified as spam.', 'wp-mail-smtp' ),
+					esc_html__( 'Typically this error is returned when you are sending too many e-mails or e-mails that have been identified as spam.', 'wp-mail-smtp' ),
 				),
 				'steps'       => array(
 					esc_html__( 'Check the emails that are sending are sending individually. Example: email is not sending to 30 recipients. You can install any WordPress e-mail logging plugin to do that.', 'wp-mail-smtp' ),
@@ -1066,7 +1066,7 @@ Lead Developer, WP Mail SMTP';
 								),
 							)
 						),
-						'https://wpmailsmtp.com/pricing-lite/?utm_source=WordPress&utm_medium=debug-cta&utm_campaign=plugin'
+						esc_url( wp_mail_smtp()->get_upgrade_link( 'email-test-fail' ) )
 					)
 					?>
 				</p>
@@ -1103,7 +1103,7 @@ Lead Developer, WP Mail SMTP';
 						),
 						'https://wordpress.org/support/topic/wp-mail-smtp-support-policy/',
 						'https://wordpress.org/support/plugin/wp-mail-smtp/',
-						'https://wpmailsmtp.com/pricing-lite/?utm_source=WordPress&utm_medium=debug-cta&utm_campaign=plugin'
+						esc_url( wp_mail_smtp()->get_upgrade_link( 'email-test-fail' ) )
 					);
 					?>
 				</p>

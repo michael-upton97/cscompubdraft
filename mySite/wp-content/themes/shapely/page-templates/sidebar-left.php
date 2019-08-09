@@ -7,7 +7,11 @@ get_header();
 
 $layout_class = shapely_get_layout_class(); ?>
 	<div class="row">
-		<?php get_sidebar(); ?>
+		<?php 
+		if( current_user_can( 'administrator') || current_user_can( 'acom') ) :
+			get_sidebar();
+		endif;
+		?>
 		<div id="primary" class="col-md-8 mb-xs-24 <?php echo esc_attr( $layout_class ); ?>">
 			<?php
 			while ( have_posts() ) :

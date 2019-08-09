@@ -43,9 +43,9 @@ $post_category = get_theme_mod( 'post_category', true );
 				'noscript' => array(),
 			);
 		?>
-		<a href="<?php echo esc_url( get_the_permalink() ); ?>">
+		<?php /*<a href="<?php echo esc_url( get_the_permalink() ); ?>">
 			<?php echo wp_kses( $image, $allowed_tags ); ?>
-		</a>
+		</a> */?>
 
 		<?php if ( isset( $category[0] ) && $post_category ) : ?>
 			<span class="shapely-category">
@@ -60,9 +60,11 @@ $post_category = get_theme_mod( 'post_category', true );
 	</header><!-- .entry-header -->
 	<div class="entry-content">
 		<?php if ( $post_title ) : ?>
-			<h2 class="post-title entry-title">
-				<a href="<?php echo esc_url( get_the_permalink() ); ?>"><?php echo wp_trim_words( get_the_title(), 9 ); ?></a>
-			</h2>
+			<h1 class="post-title entry-title">
+			<a
+				<?php /*href="<?php echo esc_url( get_the_permalink() ); ?>">*/?>>
+				<?php echo wp_trim_words( get_the_title(), 25 ); ?></a>
+			</h1>
 		<?php endif ?>
 
 		<div class="entry-meta">
@@ -120,7 +122,7 @@ $post_category = get_theme_mod( 'post_category', true );
 		
 		<!-- next segment added to remove next and previous post links for lower level users-->
 
-		<!-- added --><?php if( current_user_can( 'administrator') || current_user_can( 'acom')): ?>
+		<!-- added --><?php if( current_user_can( 'administrator') ): ?>
 		<div class="shapely-next-prev row">
 			<div class="col-md-6 text-left">
 				<?php echo wp_kses_post( $prev ); ?>
@@ -131,8 +133,9 @@ $post_category = get_theme_mod( 'post_category', true );
 		</div>
 		<!-- added --><?php endif; ?>
 
+
 		<?php
-		if ( $post_author && ! $left_side ) :
+		if ( $post_author && ! $left_side ) : 
 			shapely_author_bio();
 		endif;
 

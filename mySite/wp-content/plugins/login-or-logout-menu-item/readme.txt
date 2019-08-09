@@ -2,8 +2,8 @@
 Contributors: cartpauj
 Tags: login, log in, logout, log out, menu, menu item, menus, dynamic
 Requires at least: 3.0
-Tested up to: 5.1
-Stable tag: 1.1.1
+Tested up to: 5.3
+Stable tag: 1.2.0
 
 Add a dynamic "Login" or "Logout" menu item to any WordPress Menu and control redirects.
 
@@ -29,6 +29,9 @@ Thanks to Juliobox for his prior efforts on the BAW Login/Logout Menu plugin!
 2. Login or Logout Menu Item - Settings
 
 == Changelog ==
+
+= 1.2.0 =
+* Fixed save options security vulnerability
 
 = 1.1.1 =
 * Fixed - Do not redirect Administrator users when logging in

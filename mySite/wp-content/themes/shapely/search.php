@@ -7,14 +7,18 @@
  * @package Shapely
  */
 get_header();
-$layout_class = shapely_get_layout_class(); ?>
+$layout_class = shapely_get_layout_class(); 
+if( ! (current_user_can( 'administrator' ) || current_user_can( 'acom' )) ) : 
+	($layout_class = 'full-width');
+endif;
+?>
 	<div class="row">
 		<?php
 		if ( 'sidebar-left' == $layout_class ) :
 			get_sidebar();
 		endif;
 		?>
-		<section id="primary" class="content-area col-md-8 mb-xs-24 <?php echo esc_attr( $layout_class ); ?>">
+		<section id="primary" class="content-area col-md-8 mb-xs-24 <?php  if($layout_class == 'full-width') : echo 'custom-full-width '; endif; echo esc_attr( $layout_class ); ?>">
 			<main id="main" class="site-main" role="main">
 
 				<?php

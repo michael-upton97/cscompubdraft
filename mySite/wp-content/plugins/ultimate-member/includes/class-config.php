@@ -220,6 +220,7 @@ if ( ! class_exists( 'um\Config' ) ) {
 				'_um_profile_align' => 'center',
 				'_um_profile_icons' => 'label',
 				'_um_profile_cover_enabled' => 1,
+				'_um_profile_disable_photo_upload' => 0,
 				'_um_profile_cover_ratio' => '2.7:1',
 				'_um_profile_photosize' => '190px',
 				'_um_profile_photocorner' => '1',
@@ -520,6 +521,7 @@ if ( ! class_exists( 'um\Config' ) ) {
 				'blocked_words'                         => 'admin' . "\r\n" . 'administrator' . "\r\n" . 'webmaster' . "\r\n" . 'support' . "\r\n" . 'staff',
 				'default_avatar'                        => '',
 				'default_cover'                         => '',
+				'disable_profile_photo_upload'          => 0,
 				'profile_show_metaicon'                 => 0,
 				'profile_menu'                          => 1,
 				'profile_menu_default_tab'              => 'main',
@@ -543,17 +545,26 @@ if ( ! class_exists( 'um\Config' ) ) {
 
 			add_filter( 'um_get_tabs_from_config', '__return_true' );
 
-			$tabs = UM()->profile()->tabs_primary();
+			$tabs = UM()->profile()->tabs();
+
 			foreach ( $tabs as $id => $tab ) {
-				$this->settings_defaults['profile_tab_' . $id] = 1;
-				$this->settings_defaults['profile_tab_' . $id . '_privacy'] = 0;
-				$this->settings_defaults['profile_tab_' . $id . '_roles'] = '';
+
+				if ( ! empty( $tab['hidden'] ) ) {
+					continue;
+				}
+
+				$this->settings_defaults[ 'profile_tab_' . $id ] = 1;
+
+				if ( ! isset( $tab['default_privacy'] ) ) {
+					$this->settings_defaults[ 'profile_tab_' . $id . '_privacy' ] = 0;
+					$this->settings_defaults[ 'profile_tab_' . $id . '_roles' ] = '';
+				}
 			}
 
 			foreach ( $this->email_notifications as $key => $notification ) {
-				$this->settings_defaults[$key . '_on'] = ! empty( $notification['default_active'] );
-				$this->settings_defaults[$key . '_sub'] = $notification['subject'];
-				$this->settings_defaults[$key] = $notification['body'];
+				$this->settings_defaults[ $key . '_on' ] = ! empty( $notification['default_active'] );
+				$this->settings_defaults[ $key . '_sub' ] = $notification['subject'];
+				$this->settings_defaults[ $key ] = $notification['body'];
 			}
 
 			foreach ( $this->core_pages as $page_s => $page ) {

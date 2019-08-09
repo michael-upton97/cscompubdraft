@@ -1,0 +1,134 @@
+0000.002 (0) Opened log file at time: Thu, 11 Jul 2019 19:35:42 +0000 on http://localhost/mysite
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.15 WP: 5.2.2 PHP: 7.2.18 (apache2handler, Windows NT MICHAELUPTON-LA 10.0 build 17134 (Windows 10) AMD64) MySQL: 5.7.26 WPLANG: en_US Server: Apache/2.4.39 (Win64) PHP/7.2.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.9M | 12M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 635207.4 MB
+0000.135 (0) Tasks: Backup files:  (schedule: daily) Backup DB: 1 (schedule: twicedaily)
+0000.138 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.455 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1562600393, seconds_ago=273349)
+0000.458 (0) Set semaphore last lock (d) time to 2019-07-11 19:35:42
+0000.459 (0) Semaphore lock (d) complete
+0000.465 (0) Backup run: resumption=0, nonce=4fa76be26ce8, file_nonce=4fa76be26ce8 begun at=1562873742 (0s ago), job type=backup
+0000.468 (0) Scheduling a resumption (1) after 300 seconds (1562874042) in case this run gets aborted
+0000.573 (0) This backup run is not intended for files - skipping
+0000.574 (0) Beginning creation of database dump (WordPress DB)
+0000.720 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysqldump.exe
+0002.864 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n SET character_set_client = utf8mb4 ;\nCREATE TAB (truncated - 1201 bytes total)
+0002.871 (0) Binary mysqldump: error (code: 2)
+0003.044 (0) Table wp_options: Total expected rows (approximate): 539
+0003.149 (0) Table wp_options: Total rows added: 535 in 0.10 seconds
+0003.153 (0) Table wp_options: finishing file (backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_options.table.gz - 287.7 KB)
+0003.162 (0) Table wp_users: Total expected rows (approximate): 22
+0003.167 (0) Table wp_users: Total rows added: 22 in 0.00 seconds
+0003.169 (0) Table wp_users: finishing file (backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_users.table.gz - 2.3 KB)
+0003.176 (0) Table wp_usermeta: Total expected rows (approximate): 771
+0003.207 (0) Table wp_usermeta: Total rows added: 771 in 0.03 seconds
+0003.210 (0) Table wp_usermeta: finishing file (backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_usermeta.table.gz - 8.7 KB)
+0003.225 (0) Table wp_commentmeta: Total expected rows (approximate): 2
+0003.228 (0) Table wp_commentmeta: Total rows added: 2 in 0.00 seconds
+0003.229 (0) Table wp_commentmeta: finishing file (backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0003.282 (0) Table wp_comments: Total expected rows (approximate): 3
+0003.329 (0) Table wp_comments: Total rows added: 3 in 0.05 seconds
+0003.336 (0) Table wp_comments: finishing file (backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_comments.table.gz - 0.9 KB)
+0003.376 (0) Table wp_links: Total expected rows (approximate): 0
+0003.388 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0003.395 (0) Table wp_links: finishing file (backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_links.table.gz - 0.4 KB)
+0003.417 (0) Table wp_postmeta: Total expected rows (approximate): 1595
+0003.493 (0) Table wp_postmeta: Total rows added: 1595 in 0.07 seconds
+0003.495 (0) Table wp_postmeta: finishing file (backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_postmeta.table.gz - 60.5 KB)
+0003.500 (0) Table wp_posts: Total expected rows (approximate): 495
+0003.622 (0) Table wp_posts: Total rows added: 495 in 0.12 seconds
+0003.624 (0) Table wp_posts: finishing file (backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_posts.table.gz - 96.2 KB)
+0003.631 (0) Table wp_term_relationships: Total expected rows (approximate): 58
+0003.635 (0) Table wp_term_relationships: Total rows added: 58 in 0.00 seconds
+0003.638 (0) Table wp_term_relationships: finishing file (backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0003.645 (0) Table wp_term_taxonomy: Total expected rows (approximate): 11
+0003.648 (0) Table wp_term_taxonomy: Total rows added: 11 in 0.00 seconds
+0003.649 (0) Table wp_term_taxonomy: finishing file (backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0003.654 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0003.656 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0003.658 (0) Table wp_termmeta: finishing file (backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_termmeta.table.gz - 0.4 KB)
+0003.663 (0) Table wp_terms: Total expected rows (approximate): 11
+0003.666 (0) Table wp_terms: Total rows added: 11 in 0.00 seconds
+0003.667 (0) Table wp_terms: finishing file (backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_terms.table.gz - 0.5 KB)
+0003.707 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 39
+0003.726 (0) Table wp_yoast_seo_links: Total rows added: 39 in 0.02 seconds
+0003.728 (0) Table wp_yoast_seo_links: finishing file (backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_yoast_seo_links.table.gz - 1.1 KB)
+0003.743 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 192
+0003.755 (0) Table wp_yoast_seo_meta: Total rows added: 192 in 0.01 seconds
+0003.757 (0) Table wp_yoast_seo_meta: finishing file (backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_yoast_seo_meta.table.gz - 0.9 KB)
+0003.785 (0) Table wp_duplicator_packages: Total expected rows (approximate): 1
+0003.788 (0) Table wp_duplicator_packages: Total rows added: 1 in 0.00 seconds
+0003.791 (0) Table wp_duplicator_packages: finishing file (backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_duplicator_packages.table.gz - 2.1 KB)
+0003.838 (0) Table wp_podsrel: Total expected rows (approximate): 0
+0003.841 (0) Table wp_podsrel: Total rows added: 0 in 0.00 seconds
+0003.843 (0) Table wp_podsrel: finishing file (backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_podsrel.table.gz - 0.4 KB)
+0003.851 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_options.table.gz (1/16): adding to final database dump
+0003.940 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_users.table.gz (2/16): adding to final database dump
+0003.945 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_usermeta.table.gz (3/16): adding to final database dump
+0003.951 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_commentmeta.table.gz (4/16): adding to final database dump
+0003.953 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_comments.table.gz (5/16): adding to final database dump
+0003.954 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_links.table.gz (6/16): adding to final database dump
+0003.956 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_postmeta.table.gz (7/16): adding to final database dump
+0003.980 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_posts.table.gz (8/16): adding to final database dump
+0004.005 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_term_relationships.table.gz (9/16): adding to final database dump
+0004.007 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_term_taxonomy.table.gz (10/16): adding to final database dump
+0004.009 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_termmeta.table.gz (11/16): adding to final database dump
+0004.010 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_terms.table.gz (12/16): adding to final database dump
+0004.012 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_yoast_seo_links.table.gz (13/16): adding to final database dump
+0004.014 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_yoast_seo_meta.table.gz (14/16): adding to final database dump
+0004.016 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_duplicator_packages.table.gz (15/16): adding to final database dump
+0004.018 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db-table-wp_podsrel.table.gz (16/16): adding to final database dump
+0004.021 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db.gz: finished writing out complete database file (456 KB)
+0004.033 (0) Total database tables backed up: 16 (backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db.gz, size: 471626, sha256)
+0004.040 (0) backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0004.041 (0) Saving backup history. Total backup size: 460.6 KB
+0004.045 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0004.048 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0004.049 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d67d4aa0064a3f2c7d586d8154e3a841)
+0007.544 (0) Google Drive: quota usage: used=600.1 MB, total=15360 MB, available=14759.9 MB
+0007.548 (0) Google Drive: backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db.gz: Attempting to upload to Google Drive (into folder id: 1X1rFPlxe0rfXg0ePUmWCrF-y4-kMsoyZ)
+0009.286 (0) Googledrive chunked upload: 100 % uploaded
+0009.291 (0) Google Drive: OK: Archive backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db.gz uploaded in 1.74 seconds
+0009.293 (0) Recording as successfully uploaded: backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db.gz
+0009.296 (0) Deleting local file: backup_2019-07-11-1935_Christian_Science_Committee_on_P_4fa76be26ce8-db.gz: OK
+0009.300 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0009.302 (0) Number of backup sets in history: 8; groups (db): 1
+0009.303 (0) Examining (for databases) backup set with group_id=0, nonce=4fa76be26ce8, datestamp=1562873742 (Jul 11 2019 19:35:42)
+0009.305 (0) This backup set is the backup set just made, so will not be deleted.
+0009.305 (0) Examining (for databases) backup set with group_id=0, nonce=5bdb218428f2, datestamp=1562608689 (Jul 08 2019 17:58:09)
+0009.305 (0) Examining (for databases) backup set with group_id=0, nonce=23ba3b8a09cf, datestamp=1562608389 (Jul 08 2019 17:53:09)
+0009.305 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.306 (0) Examining (for databases) backup set with group_id=0, nonce=317f01ec861e, datestamp=1562600412 (Jul 08 2019 15:40:12)
+0009.306 (0) Examining (for databases) backup set with group_id=0, nonce=fb6aa24c9ca6, datestamp=1562600393 (Jul 08 2019 15:39:53)
+0009.306 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.308 (0) Examining (for databases) backup set with group_id=0, nonce=a793e46ec810, datestamp=1562182412 (Jul 03 2019 19:33:32)
+0009.308 (0) Examining (for databases) backup set with group_id=0, nonce=6110c051486c, datestamp=1562182387 (Jul 03 2019 19:33:07)
+0009.308 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.308 (0) Examining (for databases) backup set with group_id=0, nonce=fa5f78d59bc4, datestamp=1562003669 (Jul 01 2019 17:54:29)
+0009.308 (0) 1562003669: db: this set includes a database (backup_2019-07-01-1754_Christian_Science_Committee_on_P_fa5f78d59bc4-db.gz); db count is now 4
+0009.308 (0) 1562003669: db: over retain limit (4); will delete this database
+0009.309 (0) Delete file: backup_2019-07-01-1754_Christian_Science_Committee_on_P_fa5f78d59bc4-db.gz, service=googledrive
+0009.998 (0) Google Drive: backup_2019-07-01-1754_Christian_Science_Committee_on_P_fa5f78d59bc4-db.gz: Deletion failed: file was not found
+0010.002 (0) This backup set is now empty; will remove from history
+0010.004 (0) Deleting log file (log.fa5f78d59bc4.txt)
+0010.006 (0) Number of backup sets in history: 7; groups (files): 1
+0010.007 (0) Examining (for files) backup set with nonce=4fa76be26ce8, datestamp=1562873742 (Jul 11 2019 19:35:42)
+0010.007 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.008 (0) Examining (for files) backup set with nonce=5bdb218428f2, datestamp=1562608689 (Jul 08 2019 17:58:09)
+0010.008 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0010.009 (0) Examining (for files) backup set with nonce=23ba3b8a09cf, datestamp=1562608389 (Jul 08 2019 17:53:09)
+0010.009 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0010.010 (0) Examining (for files) backup set with nonce=317f01ec861e, datestamp=1562600412 (Jul 08 2019 15:40:12)
+0010.010 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0010.011 (0) Examining (for files) backup set with nonce=fb6aa24c9ca6, datestamp=1562600393 (Jul 08 2019 15:39:53)
+0010.012 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.014 (0) Examining (for files) backup set with nonce=a793e46ec810, datestamp=1562182412 (Jul 03 2019 19:33:32)
+0010.014 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0010.015 (0) Examining (for files) backup set with nonce=6110c051486c, datestamp=1562182387 (Jul 03 2019 19:33:07)
+0010.015 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.016 (0) Retain: saving new backup history (sets now: 7) and finishing retain operation
+0010.020 (0) Resume backup (4fa76be26ce8, 0): finish run
+0010.022 (0) Decremented the semaphore (d) by 1
+0010.025 (0) Semaphore (d) unlocked
+0010.028 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0010.035 (0) No email will/can be sent - the user has not configured an email address.
+0010.037 (0) The backup apparently succeeded and is now complete

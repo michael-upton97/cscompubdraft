@@ -2,7 +2,7 @@
 /*
 Plugin Name: Login or Logout Menu Item
 Description: Adds a new Menu item which dynamically changes from login to logout depending on the current users logged in status.
-Version: 1.1.1
+Version: 1.2.0
 Plugin URI: https://caseproof.com
 Author: cartpauj
 Text Domain: lolmi
@@ -177,6 +177,7 @@ function lolmi_settings_page() {
         <small><?php _e('URL to redirect a user to after logging out. Note: Some other plugins may override this URL.'); ?></small><br/>
         <input type="text" id="lolmi_logout_redirect_url" name="lolmi_logout_redirect_url" value="<?php echo $logout_redirect_url; ?>" style="min-width:250px;width:60%;" /><br/><br/>
 
+        <?php wp_nonce_field('lolmi_nonce'); ?>
         <input type="submit" id="lolmi_settings_submit" name="lolmi_settings_submit" value="<?php _e('Save Settings', 'lolmi'); ?>" class="button button-primary" />
       </form>
     </div>
@@ -190,6 +191,9 @@ add_action('admin_menu', 'lolmi_setup_menus');
 
 function lolmi_save_settings() {
   if(isset($_POST['lolmi_settings_submit'])) {
+    if(!current_user_can('manage_options')) { die("Cheating eh?"); }
+    check_admin_referer('lolmi_nonce');
+
     $login_page_url       = (isset($_POST['lolmi_login_page_url']) && !empty($_POST['lolmi_login_page_url'])) ? $_POST['lolmi_login_page_url'] : wp_login_url();
     $login_redirect_url   = (isset($_POST['lolmi_login_redirect_url']) && !empty($_POST['lolmi_login_redirect_url'])) ? $_POST['lolmi_login_redirect_url'] : home_url();
     $logout_redirect_url  = (isset($_POST['lolmi_logout_redirect_url']) && !empty($_POST['lolmi_logout_redirect_url'])) ? $_POST['lolmi_logout_redirect_url'] : home_url();

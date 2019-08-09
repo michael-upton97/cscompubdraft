@@ -12,7 +12,7 @@
 <div class="row">
 	<article id="post-<?php the_ID(); ?>" <?php post_class( 'post-content post-grid-wide col-md-12' ); ?>>
 		<header class="entry-header">
-			<?php
+			<?php /*
 			$image = '<img class="wp-post-image" alt="" src="' . get_template_directory_uri() . '/assets/images/placeholder_wide.jpg" />';
 			if ( has_post_thumbnail() ) {
 				$layout = shapely_get_layout_class();
@@ -21,8 +21,8 @@
 				if ( 'full-width' == $layout ) {
 					$size = 'shapely-full';
 				}
-				$image = get_the_post_thumbnail( get_the_ID(), $size );
-			}
+				$image = get_the_post_thumbnail( get_the_ID(), $size ); 
+			}*/
 			$allowed_tags = array(
 				'img'      => array(
 					'data-srcset' => true,
